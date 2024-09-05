@@ -1,9 +1,9 @@
 ---
-title: "Paper Title Number 2"
+title: "BMT-BENCH: A Benchmark Sports Dataset for Video Generation"
 collection: publications
-category: manuscripts
-permalink: /publications/ICIP2024
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+category: conference
+permalink: /publications/2024-06-07-ICIP2024
+excerpt: ''
 date: 2024-06-07
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides2.pdf'

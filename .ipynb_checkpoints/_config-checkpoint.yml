@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Ph. D. Student"
+title                    : "Ph.D Student"
 title_separator          : "-"
 name                     : &name "Yang Xiao"
-description              : &description "personal description"
+description              : &description "Student"
 url                      : https://NKUShaw.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "NKUShaw/NKUShaw.github.io"
@@ -22,7 +22,7 @@ repository               : "NKUShaw/NKUShaw.github.io"
 author:
   # Biographic information
   avatar           : "dogkid.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Yang Xiao (肖扬/萧吟扬)"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Qiannan, Guizhou (贵州黔南)"
