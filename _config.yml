@@ -24,7 +24,7 @@ author:
   avatar           : "dogkid.jpg"
   name             : "Yang Xiao (肖扬/萧吟扬)"
   pronouns         : # example: "she/her"  
-  bio              : "实事求是，调查研究(Seek truth from facts, Conduct investigations and research.)"
+  bio              : "实事求是，调查研究"
   location         : "Qiannan, Guizhou (贵州黔南)"
   employer         : "University of Tulsa"
   uri              : # URL
@@ -75,10 +75,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
+  journals:
+    title: 'Journal Articles'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Arxiv Preprints'    
   conferences:
     title: 'Conference Papers'
 
@@ -226,16 +226,16 @@ collections:
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: ""
@@ -244,14 +244,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: teaching
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _publications
   - scope:
       path: ""
@@ -262,22 +262,22 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
   # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
 
 # Sass/SCSS
@@ -290,7 +290,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Indiana-Starke # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
