@@ -1,7 +1,7 @@
 ---
 title: "BMT-BENCH: A Benchmark Sports Dataset for Video Generation"
 collection: publications
-category: conference
+category: conferences
 permalink: /publications/2024-06-07-ICIP2024
 excerpt: ''
 date: 2024-06-07
