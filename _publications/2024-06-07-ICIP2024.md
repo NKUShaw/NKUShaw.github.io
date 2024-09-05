@@ -2,7 +2,7 @@
 title: "Paper Title Number 2"
 collection: publications
 category: manuscripts
-permalink: /publication/ICIP2024
+permalink: /publications/ICIP2024
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2024-06-07
 venue: 'Journal 1'
