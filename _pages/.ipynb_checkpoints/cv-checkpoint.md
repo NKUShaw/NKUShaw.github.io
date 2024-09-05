@@ -16,48 +16,16 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Fall 2024 - : Research Assistant
+  * University of Tulsa
+  * Trustwothy Artificial Intelligence, Graph Neural Networks
+  * Supervisor: [Prof. Bo Hui](https://bohui.herokuapp.com/)
+  * Collaborator: Dr. Wang Lu, [Prof. Xiaolong Ma](https://xiaolongma2016.com/)
+* Summer 2023 - Summer 2024: Remote Research Assistant
+  * Nankai Univeristy
+  * Trustwothy Artificial Intelligence, Graph Neural Networks
+  * Supervisor: [Prof. Bo Hui](https://bohui.herokuapp.com/)
+  * Collaborator: [Prof. Da Yan](https://homes.luddy.indiana.edu/yanda/home.html), [Prof. Zijie Zhang](https://scholar.google.com/citations?hl=zh-TW&user=JFiXI-0AAAAJ), [Prof. Xiaolong Ma](https://xiaolongma2016.com/)
+* Summer 2022 - Spring 2023: Research Assistant
+  * Nankai Univeristy
+  * Medical Imaging, Image Segmentation, Image Restoration
