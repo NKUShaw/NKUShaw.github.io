@@ -75,12 +75,15 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  journals:
-    title: 'Journal Articles'
-  manuscripts:
-    title: 'Arxiv Preprints'    
   conferences:
     title: 'Conference Papers'
+  journals:
+    title: 'Journal Articles'
+  Preprints:
+    title: 'Arxiv Preprints'
+  manuscripts:
+    title: 'Submitted'    
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
