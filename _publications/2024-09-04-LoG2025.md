@@ -1,7 +1,7 @@
 ---
 title: "A Paper about Knowledge Graph Unlearning"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/2024-09-04-LoG20255.md
 excerpt: 'This paper is about Knowledge Graph Unlearning.'
 date: 2024-09-04

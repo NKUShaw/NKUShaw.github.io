@@ -79,7 +79,7 @@ publication_category:
     title: 'Conference Papers'
   journals:
     title: 'Journal Articles'
-  Preprints:
+  preprints:
     title: 'Arxiv Preprints'
   manuscripts:
     title: 'Submitted'    

@@ -1,7 +1,7 @@
 ---
 title: "A Paper about Efficient Knowledge Graph Unlearning"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/2024-08-15-AAAI20255.md
 excerpt: 'This paper is about Efficient Knowledge Graph Unlearning.'
 date: 2024-09-04
