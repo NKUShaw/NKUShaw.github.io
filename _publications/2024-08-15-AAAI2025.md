@@ -2,7 +2,7 @@
 title: "A Paper about Efficient Knowledge Graph Unlearning"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-08-15-AAAI20255.md
+permalink: /publication/2024-08-15-AAAI2025.md
 excerpt: 'This paper is about Efficient Knowledge Graph Unlearning.'
 date: 2024-09-04
 venue: 'The 39th Annual AAAI Conference on Artificial Intelligence'
