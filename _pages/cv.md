@@ -22,7 +22,7 @@ Work experience
   * Supervisor: [Prof. Bo Hui](https://bohui.herokuapp.com/)
   * Collaborator: Dr. Wang Lu, [Prof. Xiaolong Ma](https://xiaolongma2016.com/)
 * Summer 2023 - Summer 2024: Remote Research Assistant
-  * Nankai Univeristy
+  * Auburn Univeristy, University of Tulsa
   * Trustwothy Artificial Intelligence, Graph Neural Networks
   * Supervisor: [Prof. Bo Hui](https://bohui.herokuapp.com/)
   * Collaborator: [Prof. Da Yan](https://homes.luddy.indiana.edu/yanda/home.html), [Prof. Zijie Zhang](https://scholar.google.com/citations?hl=zh-TW&user=JFiXI-0AAAAJ), [Prof. Xiaolong Ma](https://xiaolongma2016.com/)
