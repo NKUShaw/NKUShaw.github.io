@@ -34,3 +34,18 @@ Service
 ======
 * NeurIPS workshop 2025 
 * CVPR 2024, LoG 2024
+
+Publications
+======
+* [LoG 2024, COLING 2025](https://openreview.net/pdf?id=y8RGPFy6MX) Knowledge Graph Unlearning with Schema
+  * <b>Yang Xiao</b>, Ruimeng Ye, Bo Hui
+* [CIKM 2024](https://dl.acm.org/doi/abs/10.1145/3627673.3679650) Advancing Certified Robustness of Explanation via Gradient Quantization
+  * <b>Yang Xiao</b>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui
+* [ICIP 2024](https://ieeexplore.ieee.org/abstract/document/10647534) BMT-BENCH: A Benchmark Sports Dataset for Video Generation
+  * Ziang Shi, <b>Yang Xiao</b>, Da Yan, Min-Te-Sun, Wei-Shinn Ku, Bo Hui
+* [Arxiv](https://arxiv.org/abs/2410.12621) Weak-to-Strong Generalization beyond Accuracy: a Pilot Study in Safety, Toxicity, and Legal Reasoning
+  * Ruimeng Ye, <b>Yang Xiao</b>, Bo Hui
+* [Arxiv](https://arxiv.org/abs/2404.18352) Post-hoc and manifold explanations analysis of facial expression data based on deep learning
+  * <b>Yang Xiao</b>
+* [Arxiv](https://arxiv.org/abs/2403.04861) A survey of lottery ticket hypothesis
+  * Bohan Liu, Zijie Zhang, Peixiong He, Zhensen Wang, <b>Yang Xiao</b>, Ruimeng Ye, Yang Zhou, Wei-Shinn Ku, Bo Hui
