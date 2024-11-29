@@ -29,3 +29,8 @@ Work experience
 * Summer 2022 - Spring 2023: Research Assistant
   * Nankai Univeristy
   * Medical Imaging, Image Segmentation, Image Restoration
+
+Service
+======
+* NeurIPS workshop 2025 
+* CVPR 2024, LoG 2024
