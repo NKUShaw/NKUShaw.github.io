@@ -22,6 +22,8 @@ News
 =======
 [2024.12] AAAI reject
 
+[2024.07] ACL desk reject for stupid reason (don't ask me)
+
 [2024.05] UAI withdrawn
 <!-- 自我介绍
 ====== -->
