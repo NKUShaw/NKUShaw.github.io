@@ -10,6 +10,8 @@ My name is Yang Xiao (肖扬). I am currently a Ph.D student in Computer Science
 
 News
 ======
+[2025.03.06] Our paper was accepted by ICLR 2025 Bi-Align Workshop.
+
 [2024.11.29] Our paper was accepted by COLING 2025.
 
 [2024.11.16] Our paper was accepted by LoG 2024.
