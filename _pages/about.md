@@ -22,6 +22,8 @@ News
 
 屡败屡战
 =======
+[2025.05] ICML reject
+
 [2024.12] AAAI reject
 
 [2024.07] ACL desk reject for stupid reason (don't ask me)
