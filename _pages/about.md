@@ -22,6 +22,8 @@ News
 
 屡败屡战
 =======
+[2025.05] ACL reject
+
 [2025.05] ICML reject
 
 [2024.12] AAAI reject
