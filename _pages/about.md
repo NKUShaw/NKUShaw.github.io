@@ -10,7 +10,7 @@ My name is Yang Xiao (肖扬). I am currently a Ph.D student in Computer Science
 
 News
 ======
-[2025.03.06] Our paper was accepted by ICML 2025 CFAgentic Workshop **Oral**.
+[2025.06.09] Our paper was accepted by ICML 2025 CFAgentic Workshop **Oral**.
 
 [2025.03.06] Our paper was accepted by ICLR 2025 Bi-Align Workshop.
 
