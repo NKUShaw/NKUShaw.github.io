@@ -10,19 +10,31 @@ My name is Yang Xiao (肖扬). I am currently a Ph.D student in Computer Science
 
 News
 ======
-[2025.06.16] I am interning at Mayo Clinic, Rochester, MN.
 
-[2025.06.09] Our paper was accepted by ICML 2025 CFAgentic Workshop **Oral**.
+<div id="news-section">
+  <ul id="news-list">
+    <li>[2025.06.16] I am interning at Mayo Clinic, Rochester, MN.</li>
+    <li>[2025.06.09] Our paper was accepted by ICML 2025 CFAgentic Workshop <strong>Oral</strong>.</li>
+    <li>[2025.03.06] Our paper was accepted by ICLR 2025 Bi-Align Workshop.</li>
+    <li>[2024.11.29] Our paper was accepted by COLING 2025.</li>
+    <li>[2024.11.16] Our paper was accepted by LoG 2024.</li>
+    <li class="hidden-news" style="display: none;">[2024.07.15] Our paper was accepted by CIKM 2024.</li>
+    <li class="hidden-news" style="display: none;">[2024.06.07] Our paper was accepted by ICIP 2024.</li>
+  </ul>
+  <button onclick="toggleNews()" id="toggle-button">Show more</button>
+</div>
 
-[2025.03.06] Our paper was accepted by ICLR 2025 Bi-Align Workshop.
-
-[2024.11.29] Our paper was accepted by COLING 2025.
-
-[2024.11.16] Our paper was accepted by LoG 2024.
-
-[2024.07.15] Our paper was accepted by CIKM 2024.
-
-[2024.06.07] Our paper was accepted by ICIP 2024.
+<script>
+function toggleNews() {
+  const hiddenItems = document.querySelectorAll('.hidden-news');
+  const btn = document.getElementById('toggle-button');
+  const isHidden = hiddenItems[0].style.display === 'none';
+  hiddenItems.forEach(item => {
+    item.style.display = isHidden ? 'list-item' : 'none';
+  });
+  btn.textContent = isHidden ? 'Show less' : 'Show more';
+}
+</script>
 
 屡败屡战
 =======
