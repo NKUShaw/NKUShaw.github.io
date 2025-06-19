@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Proud of Advocating Science, \ Shame of Persisting Ignorance."
+title: "Proud of Advocating Science, / Shame of Persisting Ignorance."
 author_profile: true
 redirect_from: 
   - /about/
