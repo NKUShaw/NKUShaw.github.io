@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Yang Xiao (Yann Shaw)'s personal page"
+title: "Proud of Advocating Science, Shame of Persisting Ignorance."
 author_profile: true
 redirect_from: 
   - /about/
