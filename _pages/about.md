@@ -13,6 +13,7 @@ News
 
 <div id="news-section">
   <ul id="news-list">
+    <li>[2025.06.25] Our papers were accepted by ICCV 2025.</li>
     <li>[2025.06.16] I am interning at Mayo Clinic, Rochester, MN.</li>
     <li>[2025.06.09] Our paper was accepted by ICML 2025 CFAgentic Workshop <strong>Oral</strong>.</li>
     <li>[2025.03.06] Our paper was accepted by ICLR 2025 Bi-Align Workshop.</li>
