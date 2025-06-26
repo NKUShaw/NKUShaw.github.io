@@ -18,7 +18,7 @@ News
     <li>[2025.06.09] Our paper was accepted by ICML 2025 CFAgentic Workshop <strong>Oral</strong>.</li>
     <li>[2025.03.06] Our paper was accepted by ICLR 2025 Bi-Align Workshop.</li>
     <li>[2024.11.29] Our paper was accepted by COLING 2025.</li>
-    <li>[2024.11.16] Our paper was accepted by LoG 2024.</li>
+    <li class="hidden-news" style="display: none;">[2024.11.16] Our paper was accepted by LoG 2024.</li>
     <li class="hidden-news" style="display: none;">[2024.07.15] Our paper was accepted by CIKM 2024.</li>
     <li class="hidden-news" style="display: none;">[2024.06.07] Our paper was accepted by ICIP 2024.</li>
   </ul>
