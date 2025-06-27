@@ -16,9 +16,14 @@ Education
 
 Work experience
 ======
+* June 2025 - Augst 2025: Intern
+  * Mayo Clinic
+  * Large Language Model for Patient Electronic Health Report, Multi-agents System for Multi-modalities Medical Dataset.
+  * Supervisor: [Dr. Nansu Zong](https://scholar.google.com/citations?user=FlhnNP8AAAAJ&hl=zh-TW&inst=12058184521150304743&oi=ao)
+  * Collaborator: [Dr. Xiaodi Li](https://xiaodili.org/), [Dr. Munhwan Lee](https://www.linkedin.com/in/lee-munhwan-15804b159/?locale=ko_KR)
 * Fall 2024 - : Research Assistant
   * University of Tulsa
-  * Trustwothy Artificial Intelligence, Graph Neural Networks
+  * Trustwothy Artificial Intelligence, AI for Science.
   * Supervisor: [Prof. Bo Hui](https://bohui.herokuapp.com/)
   * Collaborator: Dr. Wang Lu, [Prof. Xiaolong Ma](https://xiaolongma2016.com/)
 * Summer 2023 - Summer 2024: Remote Research Assistant
