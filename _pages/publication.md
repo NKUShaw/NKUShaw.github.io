@@ -9,7 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Publication
 ======
 * [ICCV 2025](https://arxiv.org/pdf/2503.10663) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
   *  <b>Yang Xiao</b>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui
