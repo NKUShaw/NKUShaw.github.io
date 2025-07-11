@@ -21,7 +21,7 @@ Publications List
   * <b>Yang Xiao</b>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui
 * [ICIP 2024](https://ieeexplore.ieee.org/abstract/document/10647534) BMT-BENCH: A Benchmark Sports Dataset for Video Generation
   * Ziang Shi, <b>Yang Xiao</b>, Da Yan, Min-Te-Sun, Wei-Shinn Ku, Bo Hui
-* [ICML 2025 Workshop] DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning. <b>Oral</b>
-  * Bohan Liu, <b>Yang Xiao</b>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui.
 * [ICLR 2025 Workshop] Weak-to-Strong Generalization beyond Accuracy: a Pilot Study in Safety, Toxicity, and Legal Reasoning. 
-  * Ruimeng Ye, <b>Yang Xiao</b>, Bo Hui. 
+  * Ruimeng Ye, <b>Yang Xiao</b>, Bo Hui.
+* [ECAI 2025, ICML 2025 Workshop] DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning. <b>Oral</b>
+  * Bohan Liu, <b>Yang Xiao</b>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui.
