@@ -50,7 +50,7 @@ CCF Paper Statistics
       <th>2026</th>
       <th>2027</th>
       <th>2028</th>
-      <th>Total</th> <!-- 总和列 -->
+      <th>Total</th>
     </tr>
   </thead>
   <tbody>
@@ -61,7 +61,7 @@ CCF Paper Statistics
       <td>Unknown</td>
       <td>Unknown</td>
       <td>Unknown</td>
-      <td></td>
+      <td>2</td>
     </tr>
     <tr>
       <td><strong>CCF-B</strong></td>
@@ -70,7 +70,7 @@ CCF Paper Statistics
       <td>Unknown</td>
       <td>Unknown</td>
       <td>Unknown</td>
-      <td></td>
+      <td>2</td>
     </tr>
     <tr>
       <td><strong>CCF-C</strong></td>
@@ -79,7 +79,7 @@ CCF Paper Statistics
       <td>Unknown</td>
       <td>Unknown</td>
       <td>Unknown</td>
-      <td></td>
+      <td>1</td>
     </tr>
     <tr>
       <td><strong>Citation</strong></td>
@@ -88,34 +88,11 @@ CCF Paper Statistics
       <td>Unknown</td>
       <td>Unknown</td>
       <td>Unknown</td>
-      <td></td>
+      <td>19</td>
     </tr>
   </tbody>
 </table>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const table = document.getElementById("ccf-table");
-  const rows = table.querySelectorAll("tbody tr");
-
-  rows.forEach(row => {
-    let sum = 0;
-    const cells = row.querySelectorAll("td");
-
-    for (let i = 1; i <= 5; i++) {
-      const value = cells[i].textContent.trim();
-      const number = parseInt(value);
-      if (!isNaN(number)) {
-        sum += number;
-      }
-    }
-
-    // Set total column
-    cells[6].textContent = sum;
-  });
-});
-</script>
-
+<br>
 
 屡败屡战
 =======
