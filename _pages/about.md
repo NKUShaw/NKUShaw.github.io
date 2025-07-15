@@ -73,7 +73,7 @@ CCF Paper Statistics
     <tr>
       <td><strong>CCF-C</strong></td>
       <td>1</td>
-      <td>Unknown</td>
+      <td>0</td>
       <td>Unknown</td>
       <td>Unknown</td>
       <td>Unknown</td>
