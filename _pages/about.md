@@ -16,8 +16,8 @@ News
     <li>[2025.07.10] Our paper was accepted by ECAI 2025.</li>
     <li>[2025.06.25] Our papers were accepted by ICCV 2025.</li>
     <li>[2025.06.16] I am interning at Mayo Clinic, Rochester, MN until August. 23, 2025.</li>
-    <li>[2025.06.09] Our paper was accepted by ICML 2025 CFAgentic Workshop <strong>Oral</strong>.</li>
-    <li>[2025.03.06] Our paper was accepted by ICLR 2025 Bi-Align Workshop.</li>
+    <li class="hidden-news" style="display: none;">[2025.06.09] Our paper was accepted by ICML 2025 CFAgentic Workshop <strong>Oral</strong>.</li>
+    <li class="hidden-news" style="display: none;">[2025.03.06] Our paper was accepted by ICLR 2025 Bi-Align Workshop.</li>
     <li class="hidden-news" style="display: none;">[2024.11.29] Our paper was accepted by COLING 2025.</li>
     <li class="hidden-news" style="display: none;">[2024.11.16] Our paper was accepted by LoG 2024.</li>
     <li class="hidden-news" style="display: none;">[2024.07.15] Our paper was accepted by CIKM 2024.</li>
@@ -39,6 +39,45 @@ function toggleNews() {
 </script>
 
 <br>
+
+<br>
+
+CCF Paper Statistics 
+======
+<table style="width:60%; text-align:center; border-collapse: collapse;" border="1">
+  <thead>
+    <tr style="background-color:#f2f2f2;">
+      <th>Category</th>
+      <th>2024-2025</th>
+      <th>2025-2026</th>
+      <th>2026-2027</th>
+      <th>2027-2028</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CCF-A</strong></td>
+      <td>2</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+    </tr>
+    <tr>
+      <td><strong>CCF-B</strong></td>
+      <td>2</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+    </tr>
+    <tr>
+      <td><strong>CCF-C</strong></td>
+      <td>1</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+    </tr>
+  </tbody>
+</table>
 
 屡败屡战
 =======
