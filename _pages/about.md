@@ -37,6 +37,7 @@ function toggleNews() {
   btn.textContent = isHidden ? 'Show less' : 'Show more';
 }
 </script>
+<br>
 
 CCF Paper Statistics 
 ======
@@ -86,6 +87,7 @@ CCF Paper Statistics
     </tr>
   </tbody>
 </table>
+<br>
 
 屡败屡战
 =======
