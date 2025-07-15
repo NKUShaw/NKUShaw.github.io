@@ -37,9 +37,7 @@ function toggleNews() {
   btn.textContent = isHidden ? 'Show less' : 'Show more';
 }
 </script>
-
 <br>
-
 CCF Paper Statistics 
 ======
 <table style="width:60%; text-align:center; border-collapse: collapse;" border="1">
@@ -88,7 +86,7 @@ CCF Paper Statistics
     </tr>
   </tbody>
 </table>
-
+<br>
 屡败屡战
 =======
 [2025.05] ACL reject
