@@ -106,6 +106,44 @@ CCF Paper Statistics
 
 [2024.05] UAI withdrawn
 
+Paper Statistics 
+======
+<table id="ccf-table" style="width:80%; text-align:center; border-collapse: collapse;" border="1">
+  <thead>
+    <tr style="background-color:#f2f2f2;">
+      <th>Category</th>
+      <th>Me</th>
+      <th>My Advisor</th>
+      <th>Jun Xu</th>
+      <th>Zhong Chen</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CCF-A</strong></td>
+      <td>2</td>
+      <td>8</td>
+      <td>26</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><strong>CCF-B</strong></td>
+      <td>2</td>
+      <td>4</td>
+      <td>22</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td><strong>CCF-C</strong></td>
+      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
 
 <!-- 自我介绍
 ====== -->
