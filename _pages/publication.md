@@ -38,6 +38,10 @@ Publications List
 ## Pre-print Papers
 * [arXiv](https://arxiv.org/abs/2403.04861) A Survey of Lottery Ticket Hypothesis.
   * Bohan Liu, Zijie Zhang, Peixiong He, Zhensen Wang, <b>Yang Xiao</b>, Ruimeng Ye, Yang Zhou, Wei-Shinn Ku, Bo Hui.
+* [arXiv](https://arxiv.org/abs/2507.18725) The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.
+  * <b>Yang Xiao</b>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui
+* [arXiv](https://arxiv.org/abs/2507.18858) Weak-to-Strong Generalization with Failure Trajectories: A Tree-based Approach to Elicit Optimal Policy in Strong Models.
+  * Ruimeng Ye, Zihan Wang, <b>Yang Xiao</b>, Zinan Ling, Manling Li, Bo Hui
 
 ## Submitted Papers
 * [ICLR 2026] A paper about Diffusion.
