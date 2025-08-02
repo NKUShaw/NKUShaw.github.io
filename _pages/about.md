@@ -84,11 +84,11 @@ CCF Paper Statistics
     <tr>
       <td><strong>Citation</strong></td>
       <td>7</td>
-      <td>12</td>
+      <td>14</td>
       <td>Unknown</td>
       <td>Unknown</td>
       <td>Unknown</td>
-      <td>19</td>
+      <td>21</td>
     </tr>
   </tbody>
 </table>
