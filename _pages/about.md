@@ -67,11 +67,11 @@ CCF Paper Statistics
     <tr>
       <td><strong>CCF-B</strong></td>
       <td>1</td>
-      <td>1</td>
-      <td>Unknown</td>
-      <td>Unknown</td>
-      <td>Unknown</td>
       <td>2</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>3</td>
     </tr>
     <tr>
       <td><strong>CCF-C</strong></td>
@@ -85,11 +85,11 @@ CCF Paper Statistics
     <tr>
       <td><strong>Citation</strong></td>
       <td>7</td>
-      <td>14</td>
+      <td>15</td>
       <td>Unknown</td>
       <td>Unknown</td>
       <td>Unknown</td>
-      <td>21</td>
+      <td>22</td>
     </tr>
   </tbody>
 </table>
