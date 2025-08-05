@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Proud of Advocating Science, <br>Shame of Persisting Ignorance."
+title: "热爱中华文化, 信仰科学真理。<br>弘扬五四精神, 反对愚昧专制。"
 author_profile: true
 redirect_from: 
   - /about/
