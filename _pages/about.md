@@ -1,12 +1,12 @@
 ---
 permalink: /
-title: "热爱中华文化, 信仰科学真理。<br>弘扬五四精神, 反对愚昧专制。"
+title: "Personal Page"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-My name is Yang Xiao (肖扬). I am currently a Ph.D student in Computer Science at University of Tulsa, Tulsa, Oklahoma, USA. I come from China and graduated from Nankai University, Tianjin, China. Now, my research interests are trustworthy artificial intelligence and AI for Science.
+My name is Yang Xiao (肖扬). a Ph.D. student in Computer Science at the University of Tulsa, Tulsa, Oklahoma, USA. I come from China and graduated from Nankai University, Tianjin, China. Now, my research interests are trustworthy artificial intelligence and AI for Science.
 
 News
 ======
