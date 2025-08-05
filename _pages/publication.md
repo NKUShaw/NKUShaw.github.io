@@ -14,7 +14,7 @@ Publications List
 ## Regular Conference Papers
 * [ICCV 2025](https://arxiv.org/pdf/2503.10663) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
   *  <b>Yang Xiao</b>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui
-* [CIKM 2024]() Efficient Knowledge Graph Unlearning with Zeroth-order Information
+* [CIKM 2025]() Efficient Knowledge Graph Unlearning with Zeroth-order Information
   *  <b>Yang Xiao</b>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui
 * [CIKM 2024](https://dl.acm.org/doi/abs/10.1145/3627673.3679650) Advancing Certified Robustness of Explanation via Gradient Quantization
   * <b>Yang Xiao</b>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui
@@ -48,5 +48,4 @@ Publications List
 ## Submitted Papers
 * [ICLR 2026] A paper about Diffusion.
 * [NIPS 2025] A paper about Machine Unlearning.
-* [CIKM 2025] A paper about Machine Unlearning.
 
