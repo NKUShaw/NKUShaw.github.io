@@ -12,13 +12,13 @@ redirect_from:
 Publications List
 ======
 ## Regular Conference Papers
-* [ICCV 2025](https://arxiv.org/pdf/2503.10663) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
+* [ICCV 2025](https://arxiv.org/abs/2503.10663) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
   *  <b>Yang Xiao</b>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui
-* [CIKM 2025]() Efficient Knowledge Graph Unlearning with Zeroth-order Information
+* [CIKM 2025](https://arxiv.org/abs/2508.14013) Efficient Knowledge Graph Unlearning with Zeroth-order Information
   *  <b>Yang Xiao</b>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui
 * [CIKM 2024](https://dl.acm.org/doi/abs/10.1145/3627673.3679650) Advancing Certified Robustness of Explanation via Gradient Quantization
   * <b>Yang Xiao</b>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui
-* [ICCV 2025](https://arxiv.org/pdf/2504.09039) Sculpting Memory: Multi-Concept Forgetting in Diffusion Models via Dynamic Mask and Concept-Aware Optimization
+* [ICCV 2025](https://arxiv.org/abs/2504.09039) Sculpting Memory: Multi-Concept Forgetting in Diffusion Models via Dynamic Mask and Concept-Aware Optimization
   *  Gen Li, <b>Yang Xiao</b>, Jie Ji, Kaiyuan Deng, Bo Hui, Linke Guo, Xiaolong Ma
 * [ECAI 2025](https://arxiv.org/abs/2501.15005) DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning. 
   * Bohan Liu, <b>Yang Xiao</b>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui.
