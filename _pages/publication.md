@@ -36,7 +36,7 @@ Publications List
   * Bohan Liu, <b>Yang Xiao</b>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui.
 * [ICLR 2025 Workshop](https://arxiv.org/abs/2410.12621) Weak-to-Strong Generalization beyond Accuracy: a Pilot Study in Safety, Toxicity, and Legal Reasoning. 
   * Ruimeng Ye, <b>Yang Xiao</b>, Bo Hui.
-* [NIPS 2026 Workshop](https://arxiv.org/abs/2507.18725) The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.
+* [NIPS 2025 Workshop](https://arxiv.org/abs/2507.18725) The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.
   * <b>Yang Xiao</b>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui.
  
 ## Pre-print Papers
