@@ -13,6 +13,7 @@ News
 
 <div id="news-section">
   <ul id="news-list">
+    <li>[2025.09.23] Our paper was accepted by NIPS 2025 RegML workshop.</li>
     <li>[2025.08.05] Our paper was accepted by CIKM 2025.</li>
     <li>[2025.07.10] Our paper was accepted by ECAI 2025.</li>
     <li>[2025.06.25] Our papers were accepted by ICCV 2025.</li>
