@@ -98,6 +98,8 @@ CCF Paper Statistics
 
 屡败屡战
 =======
+[2025.09] NIPS reject
+
 [2025.05] ACL reject
 
 [2025.05] ICML reject
