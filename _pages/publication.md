@@ -47,5 +47,5 @@ Publications List
 
 ## Submitted Papers
 * [ICLR 2026] A paper about Diffusion.
-* [NIPS 2025] A paper about Machine Unlearning.
+* [ICLR 2026] A paper about Machine Unlearning.
 
