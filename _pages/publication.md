@@ -34,10 +34,10 @@ Publications List
 ## Workshop Papers
 * [ICML 2025 Workshop](https://arxiv.org/abs/2501.15005) DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning. <b>Oral</b>
   * Bohan Liu, <b>Yang Xiao</b>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui.
-* [ICLR 2025 Workshop](https://arxiv.org/abs/2410.12621) The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.
-  * <b>Yang Xiao</b>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui
-* [NIPS 2026 Workshop](https://arxiv.org/abs/2507.18725) Weak-to-Strong Generalization beyond Accuracy: a Pilot Study in Safety, Toxicity, and Legal Reasoning. 
+* [ICLR 2025 Workshop](https://arxiv.org/abs/2410.12621) Weak-to-Strong Generalization beyond Accuracy: a Pilot Study in Safety, Toxicity, and Legal Reasoning. 
   * Ruimeng Ye, <b>Yang Xiao</b>, Bo Hui.
+* [NIPS 2026 Workshop](https://arxiv.org/abs/2507.18725) The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.
+  * <b>Yang Xiao</b>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui.
 ## Pre-print Papers
 * [arXiv](https://arxiv.org/abs/2403.04861) A Survey of Lottery Ticket Hypothesis.
   * Bohan Liu, Zijie Zhang, Peixiong He, Zhensen Wang, <b>Yang Xiao</b>, Ruimeng Ye, Yang Zhou, Wei-Shinn Ku, Bo Hui.
