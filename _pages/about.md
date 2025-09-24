@@ -6,10 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 My name is Yang Xiao (肖扬). a Ph.D. student in Computer Science at the University of Tulsa, Tulsa, Oklahoma, USA. I come from China and graduated from Nankai University, Tianjin, China. Now, my research interests are trustworthy artificial intelligence and AI for Science.
 
 News
 ======
+<div id="new"></div>
 
 <div id="news-section">
   <ul id="news-list">
@@ -17,7 +19,7 @@ News
     <li>[2025.08.05] Our paper was accepted by CIKM 2025.</li>
     <li>[2025.07.10] Our paper was accepted by ECAI 2025.</li>
     <li>[2025.06.25] Our papers were accepted by ICCV 2025.</li>
-    <li>[2025.06.16] I am interning at Mayo Clinic, Rochester, MN until August. 23, 2025.</li>
+    <li class="hidden-news" style="display: none;">[2025.06.16] I am interning at Mayo Clinic, Rochester, MN until August. 23, 2025.</li>
     <li class="hidden-news" style="display: none;">[2025.06.09] Our paper was accepted by ICML 2025 CFAgentic Workshop <strong>Oral</strong>.</li>
     <li class="hidden-news" style="display: none;">[2025.03.06] Our paper was accepted by ICLR 2025 Bi-Align Workshop.</li>
     <li class="hidden-news" style="display: none;">[2024.11.29] Our paper was accepted by COLING 2025.</li>
@@ -41,19 +43,136 @@ function toggleNews() {
 </script>
 <br>
 
-<!-- 自我介绍
-====== -->
-<!-- 本人注意力涣散，应试教育成绩差，长期失眠，如果哪天不幸猝死，用此文当作遗言——当然现在它只是一个自我介绍。
+## Projects
+<div id="project"></div>
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+  <!-- 左边缩略图 -->
+  <div style="flex: 0 0 200px; margin-right: 20px;">
+    <img src="../projects/lightcache.png" alt="Project 1" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  </div>
 
-中学时代期望从政，实现报国理想，高考入南开大学周恩来政府管理学院应用心理学专业（后该专业并入社会学院，目前只保留研究生授业），后经历各种变故，逐渐将从政目标暂且放下，却又不喜欢本专业，而绩点、排名拉跨，不再有机会转专业，于是自学计算机，机器学习，深度学习，医学影像等领域的技术（主要这玩意确实赚钱），加入本校一团队，经一年的打磨，心态强大，技术成熟，脸皮宽厚，又鼓起勇气套磁成功，终于来到美国一所末流学校念计算机的博士（因为没有钱读海外硕士，没有能力考研本国研究生，也不是科班生去top校，感谢博导的收留）。
+  <!-- 右边标题 + 内容 -->
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0;">Project Title 1</h3>
+    <p>
+      简要介绍项目的背景、做了什么、解决了什么问题。内容可以稍微详细一点，
+      如果有 <a href="https://github.com/xxx/xxx" target="_blank">代码链接</a> 或
+      <a href="assets/pdf/project1.pdf" target="_blank">PDF</a> 可以在这里放。
+    </p>
+  </div>
+</div>
 
-我常有拖延、启动困难的现象，这是制约我做事的一大阻碍，因此常常三天打鱼，两天晒网，但是运气不错，大四一年到赴美前还是发了不少文章，学校排名低，导师新AP，自觉没有靠山、没有能力走太远，现在只想做好眼下的工作，走一步看一步，虽然现在qualify都还没过，但初步打算是博士毕业后能有一份互联网企业的工作，若有机会，还想去最一流的院校找找博士后的机会。
+## Publication
+<div id="publication"></div>
 
-中学前一直觉得天赋重要，现在看来，其实大多数工作内容并没有那么多智力门槛，到处都是重复操作的dirty work，越来越觉得勤奋和不气馁的心态是进步的必要条件，回过头来看，世界终究还是一个草台班子，其实高位低位，富人穷人，正国副科的能力差异有很多因素，勤奋并不是充分条件，**沛县黑社会能开两汉四百年，凤阳一伙人能兴皇明三百岁，金田一队人能杀清妖千千万，红安一个县能养开国二百将**。人的命运不仅要看个人的奋斗，更要看发挥的平台与历史的进程，出身贫寒不是耻辱，但个人奋斗终究不是全部，就像历史中的无数例子——出身贫寒者成大业者有之，寒门难出贵子者亦多。
+Publications List
+======
+## Regular Conference Papers
+* [ICCV 2025](https://arxiv.org/abs/2503.10663) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
+  *  <b>Yang Xiao</b>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui
+* [CIKM 2025](https://arxiv.org/abs/2508.14013) Efficient Knowledge Graph Unlearning with Zeroth-order Information
+  *  <b>Yang Xiao</b>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui
+* [CIKM 2024](https://dl.acm.org/doi/abs/10.1145/3627673.3679650) Advancing Certified Robustness of Explanation via Gradient Quantization
+  * <b>Yang Xiao</b>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui
+* [ICCV 2025](https://arxiv.org/abs/2504.09039) Sculpting Memory: Multi-Concept Forgetting in Diffusion Models via Dynamic Mask and Concept-Aware Optimization
+  *  Gen Li, <b>Yang Xiao</b>, Jie Ji, Kaiyuan Deng, Bo Hui, Linke Guo, Xiaolong Ma
+* [ECAI 2025](https://arxiv.org/abs/2501.15005) DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning. 
+  * Bohan Liu, <b>Yang Xiao</b>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui.
+* [ICIP 2024](https://ieeexplore.ieee.org/abstract/document/10647534) BMT-BENCH: A Benchmark Sports Dataset for Video Generation
+  * Ziang Shi, <b>Yang Xiao</b>, Da Yan, Min-Te-Sun, Wei-Shinn Ku, Bo Hui
+ 
+## Short Conference Papers
+* [COLING 2025](https://aclanthology.org/2025.coling-main.238/) Knowledge Graph Unlearning with Schema 
+  * <b>Yang Xiao</b>, Ruimeng Ye, Bo Hui
+* [LoG 2024](https://openreview.net/pdf?id=y8RGPFy6MX) Knowledge Graph Unlearning with Schema (Extented Abstract)
+  * <b>Yang Xiao</b>, Ruimeng Ye, Bo Hui
 
-希望自己能够放下奋斗比的牛马思维，用坦然的心态去面对曲折，也许这样，顺其自然，我能走得更远。 -->
-<!-- The Exploration during my undergraduate stage
-====== -->
-<!-- During my undergraduate studies, I pursued a Bachelor's degree of Science in Applied Psychology. A lot of people thought I should be a humanities or social science student. But actually, the psychology education I received covered very hardcore knowledge of mathematics, statistics, and computer science. Many things happened and many people got acquainted with me during this experience, which gradually changed my cognition and helped me find my current life goal. TBH, I am a trash student under the evaluation standards of universities in Mainland China, so I have been trying to break through this evaluation standard and become the person I want to be. I am also very grateful for the help and opportunities of teachers and students along the way. After four years of summarizing, I believe that zuoti (做题, which means examination-oriented education) is not a fixed path, and education has become more of a screening tool. I was eliminated, but I gained more from the education path outside of zuoti than in the first twenty years of my life. the novel path is practice. Setting aside the threshold set by humans, many things can be done by hardworking, and tasks or jobs that require talent are only a few of them. Therefore, 'Identify and solve problems, summarize and learn theories from practice, validate and strengthen theories in practice' are my core methodology for understanding the world at present. -->
+## Workshop Papers
+* [ICML 2025 Workshop](https://arxiv.org/abs/2501.15005) DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning. <b>Oral</b>
+  * Bohan Liu, <b>Yang Xiao</b>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui.
+* [ICLR 2025 Workshop](https://arxiv.org/abs/2410.12621) Weak-to-Strong Generalization beyond Accuracy: a Pilot Study in Safety, Toxicity, and Legal Reasoning. 
+  * Ruimeng Ye, <b>Yang Xiao</b>, Bo Hui.
+* [NIPS 2025 Workshop](https://arxiv.org/abs/2507.18725) The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.
+  * <b>Yang Xiao</b>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui.
+* [NIPS 2025 Workshop](https://arxiv.org/abs/2507.18858) Weak-to-Strong Generalization with Failure Trajectories: A Tree-based Approach to Elicit Optimal Policy in Strong Models.
+  * Ruimeng Ye, Zihan Wang, <b>Yang Xiao</b>, Zinan Ling, Manling Li, Bo Hui
+
+ 
+## Pre-print Papers
+* [arXiv](https://arxiv.org/abs/2403.04861) A Survey of Lottery Ticket Hypothesis.
+  * Bohan Liu, Zijie Zhang, Peixiong He, Zhensen Wang, <b>Yang Xiao</b>, Ruimeng Ye, Yang Zhou, Wei-Shinn Ku, Bo Hui.
+
+## Submitted Papers
+* [ICLR 2026] A paper about Diffusion.
+* [ICLR 2026] A paper about Machine Unlearning.
+
+CCF Paper Statistics 
+======
+<table id="ccf-table" style="width:80%; text-align:center; border-collapse: collapse;" border="1">
+  <thead>
+    <tr style="background-color:#f2f2f2;">
+      <th>Category</th>
+      <th>2024</th>
+      <th>2025</th>
+      <th>2026</th>
+      <th>2027</th>
+      <th>2028</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CCF-A</strong></td>
+      <td>0</td>
+      <td>2</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><strong>CCF-B</strong></td>
+      <td>1</td>
+      <td>2</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><strong>CCF-C</strong></td>
+      <td>1</td>
+      <td>0</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><strong>Citation</strong></td>
+      <td>7</td>
+      <td>18</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+屡败屡战
+=======
+[2025.09] NIPS reject
+
+[2025.05] ACL reject
+
+[2025.05] ICML reject
+
+[2024.12] AAAI reject
+
+[2024.07] ACL desk reject for stupid reason (don't ask me)
+
+[2024.05] UAI withdrawn
 
 

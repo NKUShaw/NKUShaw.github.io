@@ -26,8 +26,14 @@ main:
   # - title: "Guide"
   #   url: /markdown/
   
-  - title: "Publication"
-    url: /publication/
+  - title: "News"
+    url: "/#new"
+
+  - title: "Projects"
+    url: "/#project"
     
-  - title: "CV"
-    url: /cv/
+  - title: "Publication"
+    url: "/#publication"
+    
+  # - title: "CV"
+  #   url: /cv/
