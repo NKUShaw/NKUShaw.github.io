@@ -50,3 +50,72 @@ Publications List
 * [ICLR 2026] A paper about Diffusion.
 * [ICLR 2026] A paper about Machine Unlearning.
 
+CCF Paper Statistics 
+======
+<table id="ccf-table" style="width:80%; text-align:center; border-collapse: collapse;" border="1">
+  <thead>
+    <tr style="background-color:#f2f2f2;">
+      <th>Category</th>
+      <th>2024</th>
+      <th>2025</th>
+      <th>2026</th>
+      <th>2027</th>
+      <th>2028</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CCF-A</strong></td>
+      <td>0</td>
+      <td>2</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><strong>CCF-B</strong></td>
+      <td>1</td>
+      <td>2</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><strong>CCF-C</strong></td>
+      <td>1</td>
+      <td>0</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><strong>Citation</strong></td>
+      <td>7</td>
+      <td>18</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+屡败屡战
+=======
+[2025.09] NIPS reject
+
+[2025.05] ACL reject
+
+[2025.05] ICML reject
+
+[2024.12] AAAI reject
+
+[2024.07] ACL desk reject for stupid reason (don't ask me)
+
+[2024.05] UAI withdrawn
+
