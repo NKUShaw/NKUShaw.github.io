@@ -99,7 +99,7 @@ Projects
   <div style="flex: 1;">
     <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2508.14013" target="_blank">[CIKM 2025]</a> Efficient Knowledge Graph Unlearning with Zeroth-order Information</h3>
     <p>
-      Machine Unlearning; Knowledge Graphs; Zero-th Optimization.<br>
+      Machine Unlearning; Knowledge Graphs; Zeroth-order Optimization.<br>
       The code is available at <a href="https://github.com/NKUShaw/ZOWFKGIF" target="_blank">here</a>。
     </p>
   </div>
