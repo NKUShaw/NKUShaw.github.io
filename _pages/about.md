@@ -197,16 +197,16 @@ function toggleNews() {
 <br>
 
 ## 屡败屡战
-[2025.09] NIPS reject
+[2025.09] NIPS reject 
 
-[2025.05] ACL reject
+[2025.05] ACL reject → CIKM 2025
 
-[2025.05] ICML reject
+[2025.05] ICML reject → NIPS 2025
 
-[2024.12] AAAI reject
+[2024.12] AAAI reject → ACL 2025
 
-[2024.07] ACL desk reject for stupid reason (don't ask me)
+[2024.07] ACL desk reject for stupid reason (don't ask me) → COLING 2025
 
-[2024.05] UAI withdrawn
+[2024.05] UAI withdrawn → CIKM 2024
 
 
