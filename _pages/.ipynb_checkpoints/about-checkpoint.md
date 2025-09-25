@@ -48,7 +48,7 @@ Projects
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; margin-right: 20px;">
-    <img src="../_projects/LightCache.gif" alt="Project 1" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    <img src="../projects/LightCache.gif" alt="Project 1" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   </div>
 
   <div style="flex: 1;">
@@ -62,7 +62,7 @@ Projects
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; margin-right: 20px;">
-    <img src="../_projects/ICCV2025_OT.png" alt="Project 2" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    <img src="../projects/ICCV2025_OT.png" alt="Project 2" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   </div>
 
   <div style="flex: 1;">
@@ -76,7 +76,7 @@ Projects
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; margin-right: 20px;">
-    <img src="../_projects/Pruning_Unlearning.png" alt="Project 3" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    <img src="../projects/Pruning_Unlearning.png" alt="Project 3" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   </div>
 
   <div style="flex: 1;">
@@ -92,7 +92,7 @@ Projects
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; margin-right: 20px;">
-    <img src="../_projects/CIKM2025_ZOWFGIF.png" alt="Project 4" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    <img src="../projects/CIKM2025_ZOWFGIF.png" alt="Project 4" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   </div>
 
   <div style="flex: 1;">
