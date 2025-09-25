@@ -44,6 +44,7 @@ function toggleNews() {
 <br>
 
 Projects
+======
 <div id="project"></div>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
@@ -104,10 +105,11 @@ Projects
   </div>
 </div>
 
+
 Publication
+======
 <div id="publication"></div>
 
-======
 ## Regular Conference Papers
 * [ICCV 2025](https://arxiv.org/abs/2503.10663) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
   *  <b>Yang Xiao</b>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui
