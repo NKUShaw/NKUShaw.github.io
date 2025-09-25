@@ -41,7 +41,7 @@ function toggleNews() {
 </script>
 <br>
 
-<h2 id="project">Projects</h2>
+<h2 id="project">Selected Projects</h2>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; margin-right: 20px;">
@@ -143,7 +143,6 @@ function toggleNews() {
 * [ICLR 2026] A paper about Machine Unlearning.
 
 ## CCF Paper Statistics 
-======
 <table id="ccf-table" style="width:80%; text-align:center; border-collapse: collapse;" border="1">
   <thead>
     <tr style="background-color:#f2f2f2;">
@@ -198,7 +197,6 @@ function toggleNews() {
 <br>
 
 ## 屡败屡战
-=======
 [2025.09] NIPS reject
 
 [2025.05] ACL reject
