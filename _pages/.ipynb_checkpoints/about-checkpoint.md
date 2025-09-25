@@ -43,29 +43,70 @@ function toggleNews() {
 </script>
 <br>
 
-## Projects
+Projects
 <div id="project"></div>
+
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-  <!-- 左边缩略图 -->
   <div style="flex: 0 0 200px; margin-right: 20px;">
-    <img src="../projects/lightcache.png" alt="Project 1" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+    <img src="../_projects/LightCache.gif" alt="Project 1" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
   </div>
 
-  <!-- 右边标题 + 内容 -->
   <div style="flex: 1;">
-    <h3 style="margin-top: 0;">Project Title 1</h3>
+    <h3 style="margin-top: 0;">LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation</h3>
     <p>
-      简要介绍项目的背景、做了什么、解决了什么问题。内容可以稍微详细一点，
-      如果有 <a href="https://github.com/xxx/xxx" target="_blank">代码链接</a> 或
-      <a href="assets/pdf/project1.pdf" target="_blank">PDF</a> 可以在这里放。
+      Video Generation; Diffusion Models; Training-Free Acceleration.<br>
+      The code is available at <a href="https://github.com/NKUShaw/LightCache" target="_blank">here</a>。
     </p>
   </div>
 </div>
 
-## Publication
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+  <div style="flex: 0 0 200px; margin-right: 20px;">
+    <img src="../_projects/ICCV2025_OT.png" alt="Project 2" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  </div>
+
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2503.10663" target="_blank">[ICCV 2025]</a> Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</h3>
+    <p>
+      Vision-Language-Brain Model; Optimal Transport; Neuroscience.<br>
+      The code is available at <a href="https://github.com/NKUShaw/OT-Alignment4brain-to-image" target="_blank">here</a>。
+    </p>
+  </div>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+  <div style="flex: 0 0 200px; margin-right: 20px;">
+    <img src="../_projects/Pruning_Unlearning.png" alt="Project 3" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  </div>
+
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2507.18725" target="_blank">[NeuraIPS 2025 workshop]</a> The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.</h3>
+    <p>
+      Machine Unlearning; Sparse models.<br>
+      The code is available at <a href="https://github.com/NKUShaw/SparseModels" target="_blank">here</a>。
+    </p>
+  </div>
+</div>
+
+
+
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+  <div style="flex: 0 0 200px; margin-right: 20px;">
+    <img src="../_projects/CIKM2025_ZOWFGIF.png" alt="Project 4" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  </div>
+
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2508.14013" target="_blank">[CIKM 2025]</a> Efficient Knowledge Graph Unlearning with Zeroth-order Information</h3>
+    <p>
+      Machine Unlearning; Knowledge Graphs; Zero-th Optimization.<br>
+      The code is available at <a href="https://github.com/NKUShaw/ZOWFKGIF" target="_blank">here</a>。
+    </p>
+  </div>
+</div>
+
+Publication
 <div id="publication"></div>
 
-Publications List
 ======
 ## Regular Conference Papers
 * [ICCV 2025](https://arxiv.org/abs/2503.10663) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
@@ -106,7 +147,7 @@ Publications List
 * [ICLR 2026] A paper about Diffusion.
 * [ICLR 2026] A paper about Machine Unlearning.
 
-CCF Paper Statistics 
+## CCF Paper Statistics 
 ======
 <table id="ccf-table" style="width:80%; text-align:center; border-collapse: collapse;" border="1">
   <thead>
@@ -161,7 +202,7 @@ CCF Paper Statistics
 </table>
 <br>
 
-屡败屡战
+## 屡败屡战
 =======
 [2025.09] NIPS reject
 
