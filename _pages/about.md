@@ -9,9 +9,7 @@ redirect_from:
 
 My name is Yang Xiao (肖扬). a Ph.D. student in Computer Science at the University of Tulsa, Tulsa, Oklahoma, USA. I come from China and graduated from Nankai University, Tianjin, China. Now, my research interests are trustworthy artificial intelligence and AI for Science.
 
-News
-======
-<div id="new"></div>
+<h2 id="new">News</h2>
 
 <div id="news-section">
   <ul id="news-list">
@@ -43,9 +41,7 @@ function toggleNews() {
 </script>
 <br>
 
-Projects
-======
-<div id="project"></div>
+<h2 id="project">Projects</h2>
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; margin-right: 20px;">
@@ -105,10 +101,7 @@ Projects
   </div>
 </div>
 
-
-Publication
-======
-<div id="publication"></div>
+<h2 id="publication">Publication</h2>
 
 ## Regular Conference Papers
 * [ICCV 2025](https://arxiv.org/abs/2503.10663) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
