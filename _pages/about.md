@@ -51,7 +51,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;">LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation</h3>
     <p>
-      **Generative Models**; Video Generation; Diffusion Models; Training-Free Acceleration.<br>
+      <b>Generative Models</b>; Video Generation; Diffusion Models; Training-Free Acceleration.<br>
       The code is available at <a href="https://github.com/NKUShaw/LightCache" target="_blank">here</a>。
     </p>
   </div>
@@ -65,7 +65,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2503.10663" target="_blank">[ICCV 2025]</a> Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</h3>
     <p>
-      **Multimodal Learning**; Vision-Language-Brain Model; Large Language Model;Optimal Transport; Neuroscience.<br>
+      <b>Multimodal Learning</b>; Vision-Language-Brain Model; Large Language Model;Optimal Transport; Neuroscience.<br>
       The code is available at <a href="https://github.com/NKUShaw/OT-Alignment4brain-to-image" target="_blank">here</a>。
     </p>
   </div>
@@ -79,7 +79,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2507.18725" target="_blank">[NeuraIPS 2025 workshop]</a> The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.</h3>
     <p>
-      **Trustworthy Artificial Intelligence**; Machine Unlearning; Sparse models.<br>
+      <b>Trustworthy Artificial Intelligence</b>;; Machine Unlearning; Sparse models.<br>
       The code is available at <a href="https://github.com/NKUShaw/SparseModels" target="_blank">here</a>。
     </p>
   </div>
@@ -95,7 +95,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2508.14013" target="_blank">[CIKM 2025]</a> Efficient Knowledge Graph Unlearning with Zeroth-order Information</h3>
     <p>
-      **Trustworthy Artificial Intelligence**; Machine Unlearning; Knowledge Graphs; Zeroth-order Optimization.<br>
+      <b>Trustworthy Artificial Intelligence</b>; Machine Unlearning; Knowledge Graphs; Zeroth-order Optimization.<br>
       The code is available at <a href="https://github.com/NKUShaw/ZOWFKGIF" target="_blank">here</a>。
     </p>
   </div>
@@ -109,7 +109,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;"><a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679650" target="_blank">[CIKM 2024]</a> Advancing Certified Robustness of Explanation via Gradient Quantization</h3>
     <p>
-      **Trustworthy Artificial Intelligence**; Explanable Algorithms; Gradient Quantization; Certified Radius.<br>
+      <b>Trustworthy Artificial Intelligence</b>; Explanable Algorithms; Gradient Quantization; Certified Radius.<br>
       The code is available at <a href="https://github.com/NKUShaw/CertifiedExplanation" target="_blank">here</a>。
     </p>
   </div>
