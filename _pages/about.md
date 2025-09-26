@@ -101,6 +101,20 @@ function toggleNews() {
   </div>
 </div>
 
+<div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
+  <div style="flex: 0 0 200px; margin-right: 20px;">
+    <img src="../projects/cikm2024.png" alt="Project 4" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
+  </div>
+
+  <div style="flex: 1;">
+    <h3 style="margin-top: 0;"><a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679650" target="_blank">[CIKM 2024]</a> Advancing Certified Robustness of Explanation via Gradient Quantization</h3>
+    <p>
+      **Trustworthy Artificial Intelligence**; Explanable Algorithms; Gradient Quantization; Certified Radius.<br>
+      The code is available at <a href="https://github.com/NKUShaw/CertifiedExplanation" target="_blank">here</a>。
+    </p>
+  </div>
+</div>
+
 <h2 id="publication">Publication</h2>
 
 ## Regular Conference Papers
