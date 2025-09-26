@@ -115,8 +115,6 @@ function toggleNews() {
   </div>
 </div>
 
-<h2 id="publication">Publication</h2>
-
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
   <div style="flex: 0 0 200px; margin-right: 20px;">
     <img src="../projects/cikm2024.png" alt="Project 1" style="width: 100%; border-radius: 8px; border: 1px solid #ddd;">
