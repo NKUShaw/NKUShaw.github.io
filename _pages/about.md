@@ -51,7 +51,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;">LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation</h3>
     <p>
-      Video Generation; Diffusion Models; Training-Free Acceleration.<br>
+      **Generative Models**; Video Generation; Diffusion Models; Training-Free Acceleration.<br>
       The code is available at <a href="https://github.com/NKUShaw/LightCache" target="_blank">here</a>。
     </p>
   </div>
@@ -65,7 +65,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2503.10663" target="_blank">[ICCV 2025]</a> Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</h3>
     <p>
-      Vision-Language-Brain Model; Optimal Transport; Neuroscience.<br>
+      **Multimodal Learning**; Vision-Language-Brain Model; Large Language Model;Optimal Transport; Neuroscience.<br>
       The code is available at <a href="https://github.com/NKUShaw/OT-Alignment4brain-to-image" target="_blank">here</a>。
     </p>
   </div>
@@ -79,7 +79,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2507.18725" target="_blank">[NeuraIPS 2025 workshop]</a> The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.</h3>
     <p>
-      Machine Unlearning; Sparse models.<br>
+      **Trustworthy Artificial Intelligence**; Machine Unlearning; Sparse models.<br>
       The code is available at <a href="https://github.com/NKUShaw/SparseModels" target="_blank">here</a>。
     </p>
   </div>
@@ -95,7 +95,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2508.14013" target="_blank">[CIKM 2025]</a> Efficient Knowledge Graph Unlearning with Zeroth-order Information</h3>
     <p>
-      Machine Unlearning; Knowledge Graphs; Zeroth-order Optimization.<br>
+      **Trustworthy Artificial Intelligence**; Machine Unlearning; Knowledge Graphs; Zeroth-order Optimization.<br>
       The code is available at <a href="https://github.com/NKUShaw/ZOWFKGIF" target="_blank">here</a>。
     </p>
   </div>
@@ -199,14 +199,14 @@ function toggleNews() {
 ## 屡败屡战
 [2025.09] NIPS reject 
 
-[2025.05] ACL reject → CIKM 2025
+[2025.05] ACL reject &rarr; CIKM 2025
 
-[2025.05] ICML reject → NIPS 2025
+[2025.05] ICML reject &rarr; NIPS 2025
 
-[2024.12] AAAI reject → ACL 2025
+[2024.12] AAAI reject &rarr; ACL 2025
 
-[2024.07] ACL desk reject for stupid reason (don't ask me) → COLING 2025
+[2024.07] ACL desk reject for stupid reason (don't ask me) &rarr; COLING 2025 and LoG 2024
 
-[2024.05] UAI withdrawn → CIKM 2024
+[2024.05] UAI withdrawn &rarr; CIKM 2024
 
 
