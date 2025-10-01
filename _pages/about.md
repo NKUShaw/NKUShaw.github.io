@@ -171,6 +171,8 @@ function toggleNews() {
 * [ICLR 2026] A paper about Machine Unlearning.
 * [Clinical Trials on Alzheimer’s Disease conference (CTAD) 2025] A paper about AI for Healthcare.
 
+<h2 id="statistic">Statistic</h2>
+
 ## CCF Paper Statistics 
 <table id="ccf-table" style="width:80%; text-align:center; border-collapse: collapse;" border="1">
   <thead>
