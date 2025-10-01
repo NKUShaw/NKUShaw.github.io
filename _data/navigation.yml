@@ -35,5 +35,7 @@ main:
   - title: "Publication"
     url: "/#publication"
     
+  - title: "Statistic"
+    url: "/#statistic"
   # - title: "CV"
   #   url: /cv/
