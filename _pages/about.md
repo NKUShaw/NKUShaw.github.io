@@ -161,11 +161,12 @@ function toggleNews() {
 * [NIPS 2025 Workshop](https://arxiv.org/abs/2507.18858) Weak-to-Strong Generalization with Failure Trajectories: A Tree-based Approach to Elicit Optimal Policy in Strong Models.
   * Ruimeng Ye, Zihan Wang, <b>Yang Xiao</b>, Zinan Ling, Manling Li, Bo Hui
 
- 
 ## Pre-print Papers
+* [arXiv](https://arxiv.org/abs/2510.05367) LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation.
+  * <b>Yang Xiao</b>, Gen Li, Kaiyuan Deng, Yushu Wu, Zheng Zhan, Yanzhi Wang, Xiaolong Ma, Bo Hui.
 * [arXiv](https://arxiv.org/abs/2403.04861) A Survey of Lottery Ticket Hypothesis.
   * Bohan Liu, Zijie Zhang, Peixiong He, Zhensen Wang, <b>Yang Xiao</b>, Ruimeng Ye, Yang Zhou, Wei-Shinn Ku, Bo Hui.
-
+  
 ## Submitted Papers
 * [ICLR 2026] A paper about Diffusion.
 * [ICLR 2026] A paper about Machine Unlearning.
