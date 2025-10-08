@@ -49,7 +49,7 @@ function toggleNews() {
   </div>
 
   <div style="flex: 1;">
-    <h3 style="margin-top: 0;">LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation</h3>
+    <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2510.05367" target="_blank">[Preprint]</a>LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation</h3>
     <p>
       <b>Generative Models</b>; Video Generation; Diffusion Models; Training-Free Acceleration.<br>
       The code is available at <a href="https://github.com/NKUShaw/LightCache" target="_blank">here</a>。
