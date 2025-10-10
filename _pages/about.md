@@ -65,7 +65,7 @@ function toggleNews() {
   <div style="flex: 1;">
     <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2503.10663" target="_blank">[ICCV 2025]</a> Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</h3>
     <p>
-      <b>Multimodal Learning</b>; Vision-Language-Brain Model; Large Language Model;Optimal Transport; Neuroscience.<br>
+      <b>Generative Models</b>; Vision-Language-Brain Model; Large Language Model;Optimal Transport; Neuroscience.<br>
       The code is available at <a href="https://github.com/NKUShaw/OT-Alignment4brain-to-image" target="_blank">here</a>。
     </p>
   </div>
