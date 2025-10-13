@@ -218,11 +218,11 @@ function toggleNews() {
     <tr>
       <td><strong>Citation</strong></td>
       <td>7</td>
-      <td>18</td>
+      <td>23</td>
       <td>Unknown</td>
       <td>Unknown</td>
       <td>Unknown</td>
-      <td>25</td>
+      <td>30</td>
     </tr>
   </tbody>
 </table>
