@@ -189,6 +189,15 @@ function toggleNews() {
   </thead>
   <tbody>
     <tr>
+      <td><strong>ICLR</strong></td>
+      <td>0</td>
+      <td>0</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>Unknown</td>
+      <td>0</td>
+    </tr>
+    <tr>
       <td><strong>CCF-A</strong></td>
       <td>0</td>
       <td>2</td>
