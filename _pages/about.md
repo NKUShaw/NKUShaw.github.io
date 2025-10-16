@@ -77,7 +77,7 @@ function toggleNews() {
   </div>
 
   <div style="flex: 1;">
-    <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2507.18725" target="_blank">[NeuraIPS 2025 workshop]</a> The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models.</h3>
+    <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2507.18725" target="_blank">[NeuraIPS 2025 workshop]</a> The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models. <strong style="color:red;">Oral Invitation</strong> (Didn't go) </h3>
     <p>
       <b>Trustworthy Artificial Intelligence</b>;; Machine Unlearning; Sparse models.<br>
       The code is available at <a href="https://github.com/NKUShaw/SparseModels" target="_blank">here</a>。
