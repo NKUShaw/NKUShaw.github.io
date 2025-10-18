@@ -237,7 +237,7 @@ function toggleNews() {
 </table>
 <br>
 
-## 屡败屡战
+## Research Reject
 [2025.09] NIPS reject 
 
 [2025.05] ACL reject &rarr; CIKM 2025
@@ -250,4 +250,12 @@ function toggleNews() {
 
 [2024.05] UAI withdrawn &rarr; CIKM 2024
 
+## Job Reject
+[2025.07.02] Microsoft reject
+
+[2025.06.27] Microsoft reject
+
+[2025.06.10] Amazon reject
+
+[2025.03.05] Visa reject
 
