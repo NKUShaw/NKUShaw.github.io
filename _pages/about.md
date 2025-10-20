@@ -13,6 +13,7 @@ My name is Yang Xiao (肖扬). a Ph.D. student in Computer Science at the Univer
 
 <div id="news-section">
   <ul id="news-list">
+    <li>[2025.10.20] Our paper was accepted by CTAD 2025.</li>
     <li>[2025.09.23] Our paper were accepted by NIPS 2025 RegML Workshop and NIPS 2025 FoRLM Workshop.</li>
     <li>[2025.08.05] Our paper was accepted by CIKM 2025.</li>
     <li>[2025.07.10] Our paper was accepted by ECAI 2025.</li>
@@ -136,6 +137,8 @@ function toggleNews() {
   *  <b>Yang Xiao</b>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui
 * [CIKM 2025](https://arxiv.org/abs/2508.14013) Efficient Knowledge Graph Unlearning with Zeroth-order Information
   *  <b>Yang Xiao</b>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui
+* [CTAD 2025] Facilitating Patient Eligibility Matching for Recruitment with a RAG-LLM Framework
+  * Xiaodi Li, <b>Yang Xiao</b>, Munhwan Lee, Maria Vassilaki, Nansu Zong
 * [CIKM 2024](https://dl.acm.org/doi/abs/10.1145/3627673.3679650) Advancing Certified Robustness of Explanation via Gradient Quantization
   * <b>Yang Xiao</b>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui
 * [ICCV 2025](https://arxiv.org/abs/2504.09039) Sculpting Memory: Multi-Concept Forgetting in Diffusion Models via Dynamic Mask and Concept-Aware Optimization
@@ -170,7 +173,6 @@ function toggleNews() {
 ## Submitted Papers
 * [ICLR 2026] A paper about Diffusion.
 * [ICLR 2026] A paper about Machine Unlearning.
-* [Clinical Trials on Alzheimer’s Disease conference (CTAD) 2025] A paper about AI for Healthcare.
 
 <h2 id="statistic">Statistic</h2>
 
