@@ -137,7 +137,7 @@ function toggleNews() {
   *  <b>Yang Xiao</b>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui
 * [CIKM 2025](https://arxiv.org/abs/2508.14013) Efficient Knowledge Graph Unlearning with Zeroth-order Information
   *  <b>Yang Xiao</b>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui
-* [CTAD 2025] Facilitating Patient Eligibility Matching for Recruitment with a RAG-LLM Framework
+* [CTAD 2025](https://nkushaw.github.io/) Facilitating Patient Eligibility Matching for Recruitment with a RAG-LLM Framework
   * Xiaodi Li, <b>Yang Xiao</b>, Munhwan Lee, Maria Vassilaki, Nansu Zong
 * [CIKM 2024](https://dl.acm.org/doi/abs/10.1145/3627673.3679650) Advancing Certified Robustness of Explanation via Gradient Quantization
   * <b>Yang Xiao</b>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui
