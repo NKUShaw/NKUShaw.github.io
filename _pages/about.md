@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-My name is Yang Xiao (肖扬). a Ph.D. student in Computer Science at the University of Tulsa, Tulsa, Oklahoma, USA under the supervision of [Prof. Bo Hui](https://bohui.herokuapp.com/). I come from China and graduated from Nankai University, Tianjin, China. Now, my research interests are trustworthy artificial intelligence and AI for Science.
+My name is Yang Xiao (肖扬). a Ph.D. student in Computer Science at the University of Tulsa, Tulsa, Oklahoma, USA under the supervision of [Prof. Bo Hui](https://bohui.herokuapp.com/). I come from China and graduated from Nankai University, Tianjin, China, where I got my bachelor's degree. Now, my research interests are trustworthy artificial intelligence and AI for Science.
 
 <h2 id="new">News</h2>
 
