@@ -64,7 +64,7 @@ function toggleNews() {
   </div>
 
   <div style="flex: 1;">
-    <h3 style="margin-top: 0;"><a href="https://arxiv.org/abs/2503.10663" target="_blank">[ICCV 2025]</a> Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</h3>
+    <h3 style="margin-top: 0;"><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_Optimal_Transport_for_Brain-Image_Alignment_Unveiling_Redundancy_and_Synergy_in_ICCV_2025_paper.pdf" target="_blank">[ICCV 2025]</a> Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</h3>
     <p>
       <b>Generative Models</b>; Vision-Language-Brain Model; Large Language Model;Optimal Transport; Neuroscience.<br>
       The code is available at <a href="https://github.com/NKUShaw/OT-Alignment4brain-to-image" target="_blank">here</a>。
@@ -133,7 +133,7 @@ function toggleNews() {
 <h2 id="publication">Publication</h2>
 
 ## Regular Conference Papers
-* [ICCV 2025](https://arxiv.org/abs/2503.10663) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
+* [ICCV 2025](https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_Optimal_Transport_for_Brain-Image_Alignment_Unveiling_Redundancy_and_Synergy_in_ICCV_2025_paper.pdf) Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing
   *  <b>Yang Xiao</b>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui
 * [CIKM 2025](https://arxiv.org/abs/2508.14013) Efficient Knowledge Graph Unlearning with Zeroth-order Information
   *  <b>Yang Xiao</b>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui
