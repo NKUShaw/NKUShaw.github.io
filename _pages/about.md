@@ -253,6 +253,8 @@ function toggleNews() {
 [2024.05] UAI withdrawn &rarr; CIKM 2024
 
 ## Job Reject
+[2025.11.11] Mutual of Omaha reject
+
 [2025.07.02] Microsoft reject
 
 [2025.06.27] Microsoft reject
