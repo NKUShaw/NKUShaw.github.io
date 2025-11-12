@@ -240,6 +240,8 @@ function toggleNews() {
 <br>
 
 ## Research Reject
+[2025.11] ICLR withdrawn * 2
+
 [2025.09] NIPS reject 
 
 [2025.05] ACL reject &rarr; CIKM 2025
