@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Academic Homepage</title>
+    <style>
+        /* --- 全局设置 --- */
+        :root {
+            --primary-color: #2c3e50; /* 深蓝灰色，专业感强 */
+            --accent-color: #3498db;  /* 链接高亮色 */
+            --bg-color: #fdfdfd;
+            --text-color: #333;
+            --light-text: #666;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* --- 布局容器 --- */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* --- 头部 (简介) --- */
+        header {
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+            margin-bottom: 60px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 40px;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* 圆形头像 */
+            object-fit: cover;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+        }
+
+        .bio h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2em;
+            color: var(--primary-color);
+        }
+
+        .bio p {
+            margin: 5px 0;
+            color: var(--light-text);
+        }
+
+        .social-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+        
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- 通用章节样式 --- */
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: var(--primary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 12px;
+            margin-bottom: 20px;
+        }
+
+        /* --- 论文列表样式 (重点) --- */
+        .paper {
+            margin-bottom: 25px;
+        }
+
+        .paper-title {
+            font-weight: 700;
+            font-size: 1.1em;
+            color: #000;
+            display: block;
+        }
+
+        .paper-authors {
+            color: var(--light-text);
+            display: block;
+            margin: 4px 0;
+        }
+
+        .paper-venue {
+            font-style: italic;
+            color: var(--primary-color);
+            font-weight: 500;
+        }
+
+        .paper-links a {
+            display: inline-block;
+            font-size: 0.85em;
+            padding: 2px 8px;
+            border: 1px solid var(--accent-color);
+            border-radius: 4px;
+            color: var(--accent-color);
+            text-decoration: none;
+            margin-right: 5px;
+            transition: all 0.2s;
+        }
+
+        .paper-links a:hover {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        /* --- 移动端适配 --- */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column; /* 手机上头像在上方 */
+                align-items: center;
+                text-align: center;
+            }
+            .avatar {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <header>
+        <img src="https://via.placeholder.com/150" alt="Profile Photo" class="avatar">
+        
+        <div class="bio">
+            <h1>Your Name (你的名字)</h1>
+            <p>PhD Student / Researcher</p>
+            <p>Department of Computer Science, University Name</p>
+            <p>Research Interests: AI, Computer Vision, Deep Learning</p>
+            
+            <div class="social-links" style="margin-top: 15px;">
+                <a href="mailto:your.email@university.edu">Email</a>
+                <a href="https://github.com/nkushaw">GitHub</a>
+                <a href="#">Google Scholar</a>
+                <a href="#">CV (PDF)</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="news">
+        <h2>🔥 News</h2>
+        <ul>
+            <li><strong>[2023-10]</strong> One paper accepted to NeurIPS 2023!</li>
+            <li><strong>[2023-05]</strong> Started internship at Company X.</li>
+        </ul>
+    </section>
+
+    <section id="publications">
+        <h2>📝 Selected Publications</h2>
+        
+        <div class="paper">
+            <span class="paper-title">Paper Title: A Great Research Work on Artificial Intelligence</span>
+            <span class="paper-authors"><strong>Your Name</strong>, Co-author Name, Advisor Name</span>
+            <span class="paper-venue">Conference on Computer Vision and Pattern Recognition (CVPR), 2024</span>
+            <div class="paper-links">
+                <a href="#">[PDF]</a>
+                <a href="#">[Code]</a>
+                <a href="#">[Project Page]</a>
+            </div>
+        </div>
+
+        <div class="paper">
+            <span class="paper-title">Another Interesting Paper Title</span>
+            <span class="paper-authors">Co-author Name, <strong>Your Name</strong></span>
+            <span class="paper-venue">International Conference on Learning Representations (ICLR), 2023</span>
+            <div class="paper-links">
+                <a href="#">[PDF]</a>
+                <a href="#">[Code]</a>
+            </div>
+        </div>
+
+        </section>
+
+    <section id="experience">
+        <h2>🎓 Education</h2>
+        <ul>
+            <li><strong>Ph.D. in Computer Science</strong>, University Name (2021 - Present)</li>
+            <li><strong>B.S. in Computer Science</strong>, University Name (2017 - 2021)</li>
+        </ul>
+    </section>
+
+    <footer style="text-align: center; margin-top: 80px; color: #999; font-size: 0.9em;">
+        <p>&copy; 2024 Your Name. Hosted on GitHub Pages.</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
