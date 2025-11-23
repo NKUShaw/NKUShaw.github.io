@@ -147,27 +147,59 @@
         <img src="https://via.placeholder.com/150" alt="Profile Photo" class="avatar">
         
         <div class="bio">
-            <h1>Your Name (你的名字)</h1>
+            <h1>Yang Xiao (萧扬)</h1>
             <p>PhD Student / Researcher</p>
-            <p>Department of Computer Science, University Name</p>
-            <p>Research Interests: AI, Computer Vision, Deep Learning</p>
+            <p>Department of Computer Science, University of Tulsa</p>
+            <p>Research Interests: Computer Vision, Trustworthy Artificial Intelligence</p>
             
             <div class="social-links" style="margin-top: 15px;">
-                <a href="mailto:your.email@university.edu">Email</a>
+                <a href="mailto:yax3417@utulsa.edu">Email</a>
                 <a href="https://github.com/nkushaw">GitHub</a>
-                <a href="#">Google Scholar</a>
-                <a href="#">CV (PDF)</a>
+                <a href="https://scholar.google.com/citations?user=FvnT29sAAAAJ">Google Scholar</a>
+                <a href="CV_Yang.pdf">CV (PDF)</a>
             </div>
         </div>
     </header>
 
     <section id="news">
         <h2>🔥 News</h2>
-        <ul>
-            <li><strong>[2023-10]</strong> One paper accepted to NeurIPS 2023!</li>
-            <li><strong>[2023-05]</strong> Started internship at Company X.</li>
+        <ul id="news-list">
+            <li><strong>[2025.10.20]</strong> Our paper was accepted by CTAD 2025.</li>
+            <li><strong>[2025.09.23]</strong> Our paper were accepted by NIPS 2025 RegML Workshop and NIPS 2025 FoRLM Workshop.</li>
+            <li><strong>[2025.08.05]</strong> Our paper was accepted by CIKM 2025.</li>
+            <li><strong>[2025.07.10]</strong> Our paper was accepted by ECAI 2025.</li>
+            <li><strong>[2025.06.25]</strong> Our papers were accepted by ICCV 2025.</li>
+
+            <li class="hidden-news" style="display: none;"><strong>[2025.06.16]</strong> Started internship at Mayo Clinic, Rochester, MN until August. 23, 2025.</li>
+            <li class="hidden-news" style="display: none;"><strong>[2025.06.09]</strong> Our paper was accepted by ICML 2025 CFAgentic Workshop <strong>Oral</strong>.</li>
+            <li class="hidden-news" style="display: none;"><strong>[2025.03.06]</strong> Our paper was accepted by ICLR 2025 Bi-Align Workshop.</li>
+            <li class="hidden-news" style="display: none;"><strong>[2024.11.29]</strong> Our paper was accepted by COLING 2025.</li>
+            <li class="hidden-news" style="display: none;"><strong>[2024.11.16]</strong> Our paper was accepted by LoG 2024.</li>
+            <li class="hidden-news" style="display: none;"><strong>[2024.07.15]</strong> Our paper was accepted by CIKM 2024.</li>
+            <li class="hidden-news" style="display: none;"><strong>[2024.06.07]</strong> Our paper was accepted by ICIP 2024.</li>
         </ul>
+        
+        <div style="margin-top: 10px;">
+            <button id="toggle-news-btn" onclick="toggleNews()" style="background:none; border:none; color:#3498db; cursor:pointer; font-size:0.95em; padding:0; text-decoration:underline;">
+                Show More
+            </button>
+        </div>
     </section>
+
+    <script>
+        function toggleNews() {
+            const hiddenItems = document.querySelectorAll('.hidden-news');
+            const btn = document.getElementById('toggle-news-btn');
+            
+            const isHidden = hiddenItems[0].style.display === 'none';
+
+            hiddenItems.forEach(item => {
+                item.style.display = isHidden ? '' : 'none';
+            });
+
+            btn.innerText = isHidden ? 'Show Less' : 'Show More';
+        }
+    </script>
 
     <section id="publications">
         <h2>📝 Selected Publications</h2>
