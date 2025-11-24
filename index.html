@@ -23,6 +23,42 @@
             padding: 0;
         }
 
+        .layout {
+            display: flex;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        /* 左侧导航栏 */
+        .sidebar {
+            width: 200px;
+            flex-shrink: 0;
+            position: sticky;
+            top: 40px;  /* 滚动时保持在视野顶部 */
+            height: fit-content;
+        }
+        
+        /* sidebar 样式 */
+        .sidebar ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .sidebar li {
+            margin-bottom: 15px;
+        }
+        
+        .sidebar a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+        
+        .sidebar a:hover {
+            color: var(--accent-color);
+        }
+        
         /* --- 布局容器 --- */
         .container {
             max-width: 800px;
@@ -205,395 +241,408 @@
 </head>
 <body>
 
-<div class="container">
-    
-    <header>
-        <img src="dogkid.jpg" alt="Profile Photo" class="avatar">
-        
-        <div class="bio">
-            <h1>Yang Xiao (萧扬)</h1>
-            <p>PhD Student / Researcher</p>
-            <p>Department of Computer Science, University of Tulsa</p>
-            <p>Research Interests: Computer Vision, Trustworthy Artificial Intelligence</p>
-            
-            <div class="social-links" style="margin-top: 15px;">
-                <a href="mailto:yax3417@utulsa.edu">Email</a>
-                <a href="https://github.com/nkushaw">GitHub</a>
-                <a href="https://scholar.google.com/citations?user=FvnT29sAAAAJ">Google Scholar</a>
-                <a href="CV_Yang.pdf">CV (PDF)</a>
-            </div>
-        </div>
-    </header>
-
-    <section id="experience">
-        <h2>📝 Education</h2>
+<div class="layout">
+    <nav class="sidebar">
         <ul>
-            <li><strong>Ph.D. in Computer Science</strong>, University of Tulsa (2024.08 - Present)</li>
-            <li><strong>B.S. in Applied Psychology</strong>, Nankai University (2020.09 - 2024.06)</li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#selected publications">Selected Publications</a></li>
+            <li><a href="#full publications">Full Publications</a></li>
+            <li><a href="#statistics">Statistics</a></li>
+            <li><a href="#rejects">Rejects</a></li>
         </ul>
-        <h2>📝 Work</h2>
-        <ul>
-            <li><strong>Intern in AI4Medicine at Dept. AI&I</strong>, Mayo Clinic (2025.06 - 2025.08)</li>
-        </ul>
-    </section>
-    
-    <section id="news">
-        <h2>🔥 News</h2>
-        <ul id="news-list">
-            <li><strong>[2025.10.20]</strong> Our paper was accepted by CTAD 2025.</li>
-            <li><strong>[2025.09.23]</strong> Our paper were accepted by NIPS 2025 RegML Workshop and NIPS 2025 FoRLM Workshop.</li>
-            <li><strong>[2025.08.05]</strong> Our paper was accepted by CIKM 2025.</li>
-            <li><strong>[2025.07.10]</strong> Our paper was accepted by ECAI 2025.</li>
-            <li><strong>[2025.06.25]</strong> Our papers were accepted by ICCV 2025.</li>
+    </nav>
 
-            <li class="hidden-news" style="display: none;"><strong>[2025.06.16]</strong> Started internship at Mayo Clinic, Rochester, MN until August. 23, 2025.</li>
-            <li class="hidden-news" style="display: none;"><strong>[2025.06.09]</strong> Our paper was accepted by ICML 2025 CFAgentic Workshop <strong>Oral</strong>.</li>
-            <li class="hidden-news" style="display: none;"><strong>[2025.03.06]</strong> Our paper was accepted by ICLR 2025 Bi-Align Workshop.</li>
-            <li class="hidden-news" style="display: none;"><strong>[2024.11.29]</strong> Our paper was accepted by COLING 2025.</li>
-            <li class="hidden-news" style="display: none;"><strong>[2024.11.16]</strong> Our paper was accepted by LoG 2024.</li>
-            <li class="hidden-news" style="display: none;"><strong>[2024.07.15]</strong> Our paper was accepted by CIKM 2024.</li>
-            <li class="hidden-news" style="display: none;"><strong>[2024.06.07]</strong> Our paper was accepted by ICIP 2024.</li>
-        </ul>
+
+    <div class="container">
         
-        <div style="margin-top: 10px;">
-            <button id="toggle-news-btn" onclick="toggleNews()" style="background:none; border:none; color:#3498db; cursor:pointer; font-size:0.95em; padding:0; text-decoration:underline;">
-                Show More
-            </button>
-        </div>
-    </section>
-
-    <script>
-        function toggleNews() {
-            const hiddenItems = document.querySelectorAll('.hidden-news');
-            const btn = document.getElementById('toggle-news-btn');
+        <header>
+            <img src="dogkid.jpg" alt="Profile Photo" class="avatar">
             
-            const isHidden = hiddenItems[0].style.display === 'none';
-
-            hiddenItems.forEach(item => {
-                item.style.display = isHidden ? '' : 'none';
-            });
-
-            btn.innerText = isHidden ? 'Show Less' : 'Show More';
-        }
-    </script>
-
-    <section id="selected publications">
-        <h2>📝 Selected Publications</h2>
-
-        <div class="paper">
-            <div class="paper-img-container">
-                <img src="./projects/ICCV2025_OT.png" alt="ICCV 2025" class="paper-img">
+            <div class="bio">
+                <h1>Yang Xiao (萧扬)</h1>
+                <p>PhD Student / Researcher</p>
+                <p>Department of Computer Science, University of Tulsa</p>
+                <p>Research Interests: Computer Vision, Trustworthy Artificial Intelligence</p>
+                
+                <div class="social-links" style="margin-top: 15px;">
+                    <a href="mailto:yax3417@utulsa.edu">Email</a>
+                    <a href="https://github.com/nkushaw">GitHub</a>
+                    <a href="https://scholar.google.com/citations?user=FvnT29sAAAAJ">Google Scholar</a>
+                    <a href="CV_Yang.pdf">CV (PDF)</a>
+                </div>
             </div>
-            <div class="paper-info">
+        </header>
+    
+        <section id="experience">
+            <h2>📝 Education</h2>
+            <ul>
+                <li><strong>Ph.D. in Computer Science</strong>, University of Tulsa (2024.08 - Present)</li>
+                <li><strong>B.S. in Applied Psychology</strong>, Nankai University (2020.09 - 2024.06)</li>
+            </ul>
+            <h2>📝 Work</h2>
+            <ul>
+                <li><strong>Intern in AI4Medicine at Dept. AI&I</strong>, Mayo Clinic (2025.06 - 2025.08)</li>
+            </ul>
+        </section>
+        
+        <section id="news">
+            <h2>🔥 News</h2>
+            <ul id="news-list">
+                <li><strong>[2025.10.20]</strong> Our paper was accepted by CTAD 2025.</li>
+                <li><strong>[2025.09.23]</strong> Our paper were accepted by NIPS 2025 RegML Workshop and NIPS 2025 FoRLM Workshop.</li>
+                <li><strong>[2025.08.05]</strong> Our paper was accepted by CIKM 2025.</li>
+                <li><strong>[2025.07.10]</strong> Our paper was accepted by ECAI 2025.</li>
+                <li><strong>[2025.06.25]</strong> Our papers were accepted by ICCV 2025.</li>
+    
+                <li class="hidden-news" style="display: none;"><strong>[2025.06.16]</strong> Started internship at Mayo Clinic, Rochester, MN until August. 23, 2025.</li>
+                <li class="hidden-news" style="display: none;"><strong>[2025.06.09]</strong> Our paper was accepted by ICML 2025 CFAgentic Workshop <strong>Oral</strong>.</li>
+                <li class="hidden-news" style="display: none;"><strong>[2025.03.06]</strong> Our paper was accepted by ICLR 2025 Bi-Align Workshop.</li>
+                <li class="hidden-news" style="display: none;"><strong>[2024.11.29]</strong> Our paper was accepted by COLING 2025.</li>
+                <li class="hidden-news" style="display: none;"><strong>[2024.11.16]</strong> Our paper was accepted by LoG 2024.</li>
+                <li class="hidden-news" style="display: none;"><strong>[2024.07.15]</strong> Our paper was accepted by CIKM 2024.</li>
+                <li class="hidden-news" style="display: none;"><strong>[2024.06.07]</strong> Our paper was accepted by ICIP 2024.</li>
+            </ul>
+            
+            <div style="margin-top: 10px;">
+                <button id="toggle-news-btn" onclick="toggleNews()" style="background:none; border:none; color:#3498db; cursor:pointer; font-size:0.95em; padding:0; text-decoration:underline;">
+                    Show More
+                </button>
+            </div>
+        </section>
+    
+        <script>
+            function toggleNews() {
+                const hiddenItems = document.querySelectorAll('.hidden-news');
+                const btn = document.getElementById('toggle-news-btn');
+                
+                const isHidden = hiddenItems[0].style.display === 'none';
+    
+                hiddenItems.forEach(item => {
+                    item.style.display = isHidden ? '' : 'none';
+                });
+    
+                btn.innerText = isHidden ? 'Show Less' : 'Show More';
+            }
+        </script>
+    
+        <section id="selected publications">
+            <h2>📝 Selected Publications</h2>
+    
+            <div class="paper">
+                <div class="paper-img-container">
+                    <img src="./projects/ICCV2025_OT.png" alt="ICCV 2025" class="paper-img">
+                </div>
+                <div class="paper-info">
+                    <span class="paper-title">Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</span>
+                    <span class="paper-authors"><strong>Yang Xiao</strong>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui</span>
+                    <span class="paper-venue">International Conference on Computer Vision (ICCV), 2025</span>
+                    <div class="paper-links">
+                        <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_Optimal_Transport_for_Brain-Image_Alignment_Unveiling_Redundancy_and_Synergy_in_ICCV_2025_paper.pdf" target="_blank">[PDF]</a>
+                        <a href="https://github.com/NKUShaw/OT-Alignment4brain-to-image" target="_blank">[Code]</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="paper">
+                <div class="paper-img-container">
+                    <img src="./projects/Pruning_Unlearning.png" alt="NeurIPS 2025 Workshop" class="paper-img">
+                </div>
+                <div class="paper-info">
+                    <span class="paper-title">The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models</span>
+                    <span class="paper-authors"><strong>Yang Xiao</strong>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui</span>
+                    <span class="paper-venue">NeurIPS 2025 Workshop <span style="color: #e74c3c;">(Oral Invitation)</span></span>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/abs/2507.18725" target="_blank">[PDF]</a>
+                        <a href="https://github.com/NKUShaw/SparseModels" target="_blank">[Code]</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="paper">
+                <div class="paper-img-container">
+                    <img src="./projects/CIKM2025_ZOWFGIF.png" alt="CIKM 2025" class="paper-img">
+                </div>
+                <div class="paper-info">
+                    <span class="paper-title">Efficient Knowledge Graph Unlearning with Zeroth-order Information</span>
+                    <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui</span>
+                    <span class="paper-venue">ACM International Conference on Information and Knowledge Management (CIKM), 2025</span>
+                    <div class="paper-links">
+                        <a href="https://dl.acm.org/doi/10.1145/3746252.3761379" target="_blank">[PDF]</a>
+                        <a href="https://github.com/NKUShaw/ZOWFKGIF" target="_blank">[Code]</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="paper">
+                <div class="paper-img-container">
+                    <img src="./projects/COLING2025.png" alt="COLONG 2025" class="paper-img">
+                </div>
+                <div class="paper-info">
+                    <span class="paper-title">Knowledge Graph Unlearning with Schema</span>
+                    <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bo Hui</span>
+                    <span class="paper-venue">International Conference on Computational Linguistics (COLING), 2025</span>
+                    <div class="paper-links">
+                        <a href="https://aclanthology.org/2025.coling-main.238/" target="_blank">[PDF]</a>
+                        <a href="https://github.com/NKUShaw/KGUnlearningBySchema" target="_blank">[Code]</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="paper">
+                <div class="paper-img-container">
+                    <img src="./projects/CIKM2024.png" alt="CIKM2024 2024" class="paper-img">
+                </div>
+                <div class="paper-info">
+                    <span class="paper-title">Advancing Certified Robustness of Explanation via Gradient Quantization</span>
+                    <span class="paper-authors"><strong>Yang Xiao</strong>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui</span>
+                    <span class="paper-venue">ACM International Conference on Information and Knowledge Management (CIKM), 2024</span>
+                    <div class="paper-links">
+                        <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679650" target="_blank">[PDF]</a>
+                        <a href="https://github.com/NKUShaw/CertifiedExplanation" target="_blank">[Code]</a>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    
+        <section id="full publications">
+            <h2>📝 Publications</h2>
+    
+            <h3 style="margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Regular Conference Papers</h3>
+            
+            <div class="paper">
                 <span class="paper-title">Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</span>
                 <span class="paper-authors"><strong>Yang Xiao</strong>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui</span>
-                <span class="paper-venue">International Conference on Computer Vision (ICCV), 2025</span>
+                <span class="paper-venue">ICCV 2025</span>
                 <div class="paper-links">
                     <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_Optimal_Transport_for_Brain-Image_Alignment_Unveiling_Redundancy_and_Synergy_in_ICCV_2025_paper.pdf" target="_blank">[PDF]</a>
-                    <a href="https://github.com/NKUShaw/OT-Alignment4brain-to-image" target="_blank">[Code]</a>
                 </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-img-container">
-                <img src="./projects/Pruning_Unlearning.png" alt="NeurIPS 2025 Workshop" class="paper-img">
-            </div>
-            <div class="paper-info">
-                <span class="paper-title">The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models</span>
-                <span class="paper-authors"><strong>Yang Xiao</strong>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui</span>
-                <span class="paper-venue">NeurIPS 2025 Workshop <span style="color: #e74c3c;">(Oral Invitation)</span></span>
-                <div class="paper-links">
-                    <a href="https://arxiv.org/abs/2507.18725" target="_blank">[PDF]</a>
-                    <a href="https://github.com/NKUShaw/SparseModels" target="_blank">[Code]</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-img-container">
-                <img src="./projects/CIKM2025_ZOWFGIF.png" alt="CIKM 2025" class="paper-img">
-            </div>
-            <div class="paper-info">
+    
+            <div class="paper">
                 <span class="paper-title">Efficient Knowledge Graph Unlearning with Zeroth-order Information</span>
                 <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui</span>
-                <span class="paper-venue">ACM International Conference on Information and Knowledge Management (CIKM), 2025</span>
+                <span class="paper-venue">CIKM 2025</span>
                 <div class="paper-links">
                     <a href="https://dl.acm.org/doi/10.1145/3746252.3761379" target="_blank">[PDF]</a>
-                    <a href="https://github.com/NKUShaw/ZOWFKGIF" target="_blank">[Code]</a>
                 </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-img-container">
-                <img src="./projects/COLING2025.png" alt="COLONG 2025" class="paper-img">
-            </div>
-            <div class="paper-info">
-                <span class="paper-title">Knowledge Graph Unlearning with Schema</span>
-                <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bo Hui</span>
-                <span class="paper-venue">International Conference on Computational Linguistics (COLING), 2025</span>
+    
+            <div class="paper">
+                <span class="paper-title">Facilitating Patient Eligibility Matching for Recruitment with a RAG-LLM Framework</span>
+                <span class="paper-authors">Xiaodi Li, <strong>Yang Xiao</strong>, Munhwan Lee, Maria Vassilaki, Nansu Zong</span>
+                <span class="paper-venue">CTAD 2025</span>
                 <div class="paper-links">
-                    <a href="https://aclanthology.org/2025.coling-main.238/" target="_blank">[PDF]</a>
-                    <a href="https://github.com/NKUShaw/KGUnlearningBySchema" target="_blank">[Code]</a>
+                    <a href="" target="_blank">[TBD]</a>
                 </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <div class="paper-img-container">
-                <img src="./projects/CIKM2024.png" alt="CIKM2024 2024" class="paper-img">
-            </div>
-            <div class="paper-info">
+    
+            <div class="paper">
                 <span class="paper-title">Advancing Certified Robustness of Explanation via Gradient Quantization</span>
                 <span class="paper-authors"><strong>Yang Xiao</strong>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui</span>
-                <span class="paper-venue">ACM International Conference on Information and Knowledge Management (CIKM), 2024</span>
+                <span class="paper-venue">CIKM 2024</span>
                 <div class="paper-links">
                     <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679650" target="_blank">[PDF]</a>
-                    <a href="https://github.com/NKUShaw/CertifiedExplanation" target="_blank">[Code]</a>
                 </div>
             </div>
-        </div>
-
-    </section>
-
-    <section id="full publications">
-        <h2>📝 Publications</h2>
-
-        <h3 style="margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Regular Conference Papers</h3>
-        
-        <div class="paper">
-            <span class="paper-title">Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</span>
-            <span class="paper-authors"><strong>Yang Xiao</strong>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui</span>
-            <span class="paper-venue">ICCV 2025</span>
-            <div class="paper-links">
-                <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_Optimal_Transport_for_Brain-Image_Alignment_Unveiling_Redundancy_and_Synergy_in_ICCV_2025_paper.pdf" target="_blank">[PDF]</a>
+    
+            <div class="paper">
+                <span class="paper-title">Sculpting Memory: Multi-Concept Forgetting in Diffusion Models via Dynamic Mask and Concept-Aware Optimization</span>
+                <span class="paper-authors">Gen Li, <strong>Yang Xiao</strong>, Jie Ji, Kaiyuan Deng, Bo Hui, Linke Guo, Xiaolong Ma</span>
+                <span class="paper-venue">ICCV 2025</span>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2504.09039" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">Efficient Knowledge Graph Unlearning with Zeroth-order Information</span>
-            <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui</span>
-            <span class="paper-venue">CIKM 2025</span>
-            <div class="paper-links">
-                <a href="https://dl.acm.org/doi/10.1145/3746252.3761379" target="_blank">[PDF]</a>
+    
+            <div class="paper">
+                <span class="paper-title">DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning</span>
+                <span class="paper-authors">Bohan Liu, <strong>Yang Xiao</strong>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui</span>
+                <span class="paper-venue">ECAI 2025</span>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2501.15005" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">Facilitating Patient Eligibility Matching for Recruitment with a RAG-LLM Framework</span>
-            <span class="paper-authors">Xiaodi Li, <strong>Yang Xiao</strong>, Munhwan Lee, Maria Vassilaki, Nansu Zong</span>
-            <span class="paper-venue">CTAD 2025</span>
-            <div class="paper-links">
-                <a href="" target="_blank">[TBD]</a>
+    
+            <div class="paper">
+                <span class="paper-title">BMT-BENCH: A Benchmark Sports Dataset for Video Generation</span>
+                <span class="paper-authors">Ziang Shi, <strong>Yang Xiao</strong>, Da Yan, Min-Te-Sun, Wei-Shinn Ku, Bo Hui</span>
+                <span class="paper-venue">ICIP 2024</span>
+                <div class="paper-links">
+                    <a href="https://ieeexplore.ieee.org/abstract/document/10647534" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">Advancing Certified Robustness of Explanation via Gradient Quantization</span>
-            <span class="paper-authors"><strong>Yang Xiao</strong>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui</span>
-            <span class="paper-venue">CIKM 2024</span>
-            <div class="paper-links">
-                <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679650" target="_blank">[PDF]</a>
+    
+            <h3 style="margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Short Conference Papers</h3>
+    
+            <div class="paper">
+                <span class="paper-title">Knowledge Graph Unlearning with Schema</span>
+                <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bo Hui</span>
+                <span class="paper-venue">COLING 2025</span>
+                <div class="paper-links">
+                    <a href="https://aclanthology.org/2025.coling-main.238/" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">Sculpting Memory: Multi-Concept Forgetting in Diffusion Models via Dynamic Mask and Concept-Aware Optimization</span>
-            <span class="paper-authors">Gen Li, <strong>Yang Xiao</strong>, Jie Ji, Kaiyuan Deng, Bo Hui, Linke Guo, Xiaolong Ma</span>
-            <span class="paper-venue">ICCV 2025</span>
-            <div class="paper-links">
-                <a href="https://arxiv.org/abs/2504.09039" target="_blank">[PDF]</a>
+    
+            <div class="paper">
+                <span class="paper-title">Knowledge Graph Unlearning with Schema (Extended Abstract)</span>
+                <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bo Hui</span>
+                <span class="paper-venue">LoG 2024</span>
+                <div class="paper-links">
+                    <a href="https://openreview.net/pdf?id=y8RGPFy6MX" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning</span>
-            <span class="paper-authors">Bohan Liu, <strong>Yang Xiao</strong>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui</span>
-            <span class="paper-venue">ECAI 2025</span>
-            <div class="paper-links">
-                <a href="https://arxiv.org/abs/2501.15005" target="_blank">[PDF]</a>
+    
+            <h3 style="margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Workshop Papers</h3>
+    
+            <div class="paper">
+                <span class="paper-title">DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning</span>
+                <span class="paper-authors">Bohan Liu, <strong>Yang Xiao</strong>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui</span>
+                <span class="paper-venue">ICML 2025 Workshop <span style="color: #e74c3c; font-weight:bold;">(Oral)</span></span>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2501.15005" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">BMT-BENCH: A Benchmark Sports Dataset for Video Generation</span>
-            <span class="paper-authors">Ziang Shi, <strong>Yang Xiao</strong>, Da Yan, Min-Te-Sun, Wei-Shinn Ku, Bo Hui</span>
-            <span class="paper-venue">ICIP 2024</span>
-            <div class="paper-links">
-                <a href="https://ieeexplore.ieee.org/abstract/document/10647534" target="_blank">[PDF]</a>
+    
+            <div class="paper">
+                <span class="paper-title">Weak-to-Strong Generalization beyond Accuracy: a Pilot Study in Safety, Toxicity, and Legal Reasoning</span>
+                <span class="paper-authors">Ruimeng Ye, <strong>Yang Xiao</strong>, Bo Hui</span>
+                <span class="paper-venue">ICLR 2025 Workshop</span>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2410.12621" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <h3 style="margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Short Conference Papers</h3>
-
-        <div class="paper">
-            <span class="paper-title">Knowledge Graph Unlearning with Schema</span>
-            <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bo Hui</span>
-            <span class="paper-venue">COLING 2025</span>
-            <div class="paper-links">
-                <a href="https://aclanthology.org/2025.coling-main.238/" target="_blank">[PDF]</a>
+    
+            <div class="paper">
+                <span class="paper-title">The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models</span>
+                <span class="paper-authors"><strong>Yang Xiao</strong>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui</span>
+                <span class="paper-venue">NeurIPS 2025 Workshop</span>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2507.18725" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">Knowledge Graph Unlearning with Schema (Extended Abstract)</span>
-            <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bo Hui</span>
-            <span class="paper-venue">LoG 2024</span>
-            <div class="paper-links">
-                <a href="https://openreview.net/pdf?id=y8RGPFy6MX" target="_blank">[PDF]</a>
+    
+            <div class="paper">
+                <span class="paper-title">Weak-to-Strong Generalization with Failure Trajectories: A Tree-based Approach to Elicit Optimal Policy in Strong Models</span>
+                <span class="paper-authors">Ruimeng Ye, Zihan Wang, <strong>Yang Xiao</strong>, Zinan Ling, Manling Li, Bo Hui</span>
+                <span class="paper-venue">NeurIPS 2025 Workshop</span>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2507.18858" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <h3 style="margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Workshop Papers</h3>
-
-        <div class="paper">
-            <span class="paper-title">DBA-DFL: Towards Distributed Backdoor Attacks with Network Detection in Decentralized Federated Learning</span>
-            <span class="paper-authors">Bohan Liu, <strong>Yang Xiao</strong>, Ruimeng Ye, Zinan Ling, Xiaolong Ma, Bo Hui</span>
-            <span class="paper-venue">ICML 2025 Workshop <span style="color: #e74c3c; font-weight:bold;">(Oral)</span></span>
-            <div class="paper-links">
-                <a href="https://arxiv.org/abs/2501.15005" target="_blank">[PDF]</a>
+    
+            <h3 style="margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Pre-print & Submitted</h3>
+    
+            <div class="paper">
+                <span class="paper-title">LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation</span>
+                <span class="paper-authors"><strong>Yang Xiao</strong>, Gen Li, Kaiyuan Deng, Yushu Wu, Zheng Zhan, Yanzhi Wang, Xiaolong Ma, Bo Hui</span>
+                <span class="paper-venue">arXiv Preprint</span>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2510.05367" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">Weak-to-Strong Generalization beyond Accuracy: a Pilot Study in Safety, Toxicity, and Legal Reasoning</span>
-            <span class="paper-authors">Ruimeng Ye, <strong>Yang Xiao</strong>, Bo Hui</span>
-            <span class="paper-venue">ICLR 2025 Workshop</span>
-            <div class="paper-links">
-                <a href="https://arxiv.org/abs/2410.12621" target="_blank">[PDF]</a>
+    
+            <div class="paper">
+                <span class="paper-title">A Survey of Lottery Ticket Hypothesis</span>
+                <span class="paper-authors">Bohan Liu, Zijie Zhang, Peixiong He, Zhensen Wang, <strong>Yang Xiao</strong>, Ruimeng Ye, Yang Zhou, Wei-Shinn Ku, Bo Hui</span>
+                <span class="paper-venue">arXiv Preprint</span>
+                <div class="paper-links">
+                    <a href="https://arxiv.org/abs/2403.04861" target="_blank">[PDF]</a>
+                </div>
             </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models</span>
-            <span class="paper-authors"><strong>Yang Xiao</strong>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui</span>
-            <span class="paper-venue">NeurIPS 2025 Workshop</span>
-            <div class="paper-links">
-                <a href="https://arxiv.org/abs/2507.18725" target="_blank">[PDF]</a>
-            </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">Weak-to-Strong Generalization with Failure Trajectories: A Tree-based Approach to Elicit Optimal Policy in Strong Models</span>
-            <span class="paper-authors">Ruimeng Ye, Zihan Wang, <strong>Yang Xiao</strong>, Zinan Ling, Manling Li, Bo Hui</span>
-            <span class="paper-venue">NeurIPS 2025 Workshop</span>
-            <div class="paper-links">
-                <a href="https://arxiv.org/abs/2507.18858" target="_blank">[PDF]</a>
-            </div>
-        </div>
-
-        <h3 style="margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Pre-print & Submitted</h3>
-
-        <div class="paper">
-            <span class="paper-title">LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation</span>
-            <span class="paper-authors"><strong>Yang Xiao</strong>, Gen Li, Kaiyuan Deng, Yushu Wu, Zheng Zhan, Yanzhi Wang, Xiaolong Ma, Bo Hui</span>
-            <span class="paper-venue">arXiv Preprint</span>
-            <div class="paper-links">
-                <a href="https://arxiv.org/abs/2510.05367" target="_blank">[PDF]</a>
-            </div>
-        </div>
-
-        <div class="paper">
-            <span class="paper-title">A Survey of Lottery Ticket Hypothesis</span>
-            <span class="paper-authors">Bohan Liu, Zijie Zhang, Peixiong He, Zhensen Wang, <strong>Yang Xiao</strong>, Ruimeng Ye, Yang Zhou, Wei-Shinn Ku, Bo Hui</span>
-            <span class="paper-venue">arXiv Preprint</span>
-            <div class="paper-links">
-                <a href="https://arxiv.org/abs/2403.04861" target="_blank">[PDF]</a>
-            </div>
-        </div>
-        
-    </section>
-
-    <section id="statistics">
-        <h2>📊 Statistics</h2>
-        <p style="font-size: 0.9em; color: #666; margin-bottom: 15px;">CCF Paper Statistics</p>
-        <table class="stats-table">
-            <thead>
-                <tr>
-                    <th>Category</th>
-                    <th>2024</th>
-                    <th>2025</th>
-                    <th>2026</th>
-                    <th>Total</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>ICLR</strong></td>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>Unknown</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td><strong>CCF-A</strong></td>
-                    <td>0</td>
-                    <td>2</td>
-                    <td>Unknown</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td><strong>CCF-B</strong></td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>Unknown</td>
-                    <td>3</td>
-                </tr>
-                <tr>
-                    <td><strong>CCF-C</strong></td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>Unknown</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td><strong>Citation</strong></td>
-                    <td>7</td>
-                    <td>28</td>
-                    <td>Unknown</td>
-                    <td>35</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <section id="rejects">
-        <h2>🌧️ Rejects (To be better)</h2>
-        
-        <div style="display: flex; gap: 40px; flex-wrap: wrap;">
             
-            <div style="flex: 1; min-width: 300px;">
-                <h3>Research Reject</h3>
-                <ul class="reject-list">
-                    <li><strong>[2025.11]</strong> ICLR withdrawn * 2</li>
-                    <li><strong>[2025.09]</strong> NIPS reject</li>
-                    <li><strong>[2025.05]</strong> ACL reject &rarr; CIKM 2025</li>
-                    <li><strong>[2025.05]</strong> ICML reject &rarr; NIPS 2025</li>
-                    <li><strong>[2024.12]</strong> AAAI reject &rarr; ACL 2025</li>
-                    <li><strong>[2024.07]</strong> ACL desk reject (reason unknown) &rarr; COLING 2025 & LoG 2024</li>
-                    <li><strong>[2024.05]</strong> UAI withdrawn &rarr; CIKM 2024</li>
-                </ul>
-            </div>
-
-            <div style="flex: 1; min-width: 300px;">
-                <h3>Job Reject</h3>
-                <ul class="reject-list">
-                    <li><strong>[2025.11.11]</strong> Mutual of Omaha reject</li>
-                    <li><strong>[2025.07.02]</strong> Microsoft reject</li>
-                    <li><strong>[2025.06.27]</strong> Microsoft reject</li>
-                    <li><strong>[2025.06.10]</strong> Amazon reject</li>
-                    <li><strong>[2025.03.05]</strong> Visa reject</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+        </section>
     
-    <footer style="text-align: center; margin-top: 80px; color: #999; font-size: 0.9em;">
-        <p>&copy; 2025 Yang Xiao. Hosted on GitHub Pages.</p>
-    </footer>
+        <section id="statistics">
+            <h2>📊 Statistics</h2>
+            <p style="font-size: 0.9em; color: #666; margin-bottom: 15px;">CCF Paper Statistics</p>
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>2024</th>
+                        <th>2025</th>
+                        <th>2026</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>ICLR</strong></td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>Unknown</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CCF-A</strong></td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>Unknown</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CCF-B</strong></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>Unknown</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CCF-C</strong></td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>Unknown</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Citation</strong></td>
+                        <td>7</td>
+                        <td>28</td>
+                        <td>Unknown</td>
+                        <td>35</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     
+        <section id="rejects">
+            <h2>🌧️ Rejects (To be better)</h2>
+            
+            <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+                
+                <div style="flex: 1; min-width: 300px;">
+                    <h3>Research Reject</h3>
+                    <ul class="reject-list">
+                        <li><strong>[2025.11]</strong> ICLR withdrawn * 2</li>
+                        <li><strong>[2025.09]</strong> NIPS reject</li>
+                        <li><strong>[2025.05]</strong> ACL reject &rarr; CIKM 2025</li>
+                        <li><strong>[2025.05]</strong> ICML reject &rarr; NIPS 2025</li>
+                        <li><strong>[2024.12]</strong> AAAI reject &rarr; ACL 2025</li>
+                        <li><strong>[2024.07]</strong> ACL desk reject (reason unknown) &rarr; COLING 2025 & LoG 2024</li>
+                        <li><strong>[2024.05]</strong> UAI withdrawn &rarr; CIKM 2024</li>
+                    </ul>
+                </div>
+    
+                <div style="flex: 1; min-width: 300px;">
+                    <h3>Job Reject</h3>
+                    <ul class="reject-list">
+                        <li><strong>[2025.11.11]</strong> Mutual of Omaha reject</li>
+                        <li><strong>[2025.07.02]</strong> Microsoft reject</li>
+                        <li><strong>[2025.06.27]</strong> Microsoft reject</li>
+                        <li><strong>[2025.06.10]</strong> Amazon reject</li>
+                        <li><strong>[2025.03.05]</strong> Visa reject</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <footer style="text-align: center; margin-top: 80px; color: #999; font-size: 0.9em;">
+            <p>&copy; 2025 Yang Xiao. Hosted on GitHub Pages.</p>
+        </footer>
+        
+    </div>
 </div>
-
 </body>
 </html>
