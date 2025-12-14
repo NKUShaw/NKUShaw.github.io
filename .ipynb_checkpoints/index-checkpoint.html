@@ -163,6 +163,17 @@
             transition: all 0.2s;
         }
 
+        .paper-intro {
+            margin-top: 8px;
+            max-width: 620px;
+        
+            font-size: 0.92em;
+            line-height: 1.55;
+            color: #444;
+        
+            font-weight: 400;
+        }
+        
         .paper-links a:hover {
             background-color: var(--accent-color);
             color: white;
@@ -188,6 +199,8 @@
         .paper-info {
             flex: 1; /* 文字占据剩余空间 */
         }
+        
+
         /* --- 表格样式美化 --- */
         .stats-table {
             width: 100%;
@@ -328,7 +341,26 @@
     
         <section id="selected publications">
             <h2>📝 Selected Publications</h2>
-    
+
+            <div class="paper">
+                <div class="paper-img-container">
+                    <img src="./projects/liteframe.png" alt="Finished" class="paper-img">
+                </div>
+                <div class="paper-info">
+                    <span class="paper-title">LiteFrame: Selective Frame Encoding for Efficient Micro-Video Sequential Recommendation</span>
+                    <span class="paper-authors"><strong>Yang Xiao</strong>, Huiyuan Chen, Chao Jiang, Zinan Ling, Ruimeng Ye, Bo Hui</span>
+                    <span class="paper-venue">Finished but not be submitted</span>
+                    <p class="paper-intro">
+                      <strong>[Efficient AI]</strong> Perceiver to compress the embeddings to sequence prediction of micro video dataset.
+                    </p>
+                    <div class="paper-links">
+                        <a href="https://github.com/NKUShaw/" target="_blank">[PDF]</a>
+                        <a href="https://github.com/NKUShaw/" target="_blank">[Code]</a>
+                    </div>
+                    
+                </div>
+            </div>
+            
             <div class="paper">
                 <div class="paper-img-container">
                     <img src="./projects/ICCV2025_OT.png" alt="ICCV 2025" class="paper-img">
@@ -337,6 +369,9 @@
                     <span class="paper-title">Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing</span>
                     <span class="paper-authors"><strong>Yang Xiao</strong>, Wang Lu, Jie Ji, Ruimeng Ye, Gen Li, Xiaolong Ma, Bo Hui</span>
                     <span class="paper-venue">International Conference on Computer Vision (ICCV), 2025</span>
+                    <p class="paper-intro">
+                      <strong>[Multimodal Learning]</strong> Perceiver to align the brain embeddings with image embedding via Optimal Transport Loss.
+                    </p>
                     <div class="paper-links">
                         <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Xiao_Optimal_Transport_for_Brain-Image_Alignment_Unveiling_Redundancy_and_Synergy_in_ICCV_2025_paper.pdf" target="_blank">[PDF]</a>
                         <a href="https://github.com/NKUShaw/OT-Alignment4brain-to-image" target="_blank">[Code]</a>
@@ -352,6 +387,9 @@
                     <span class="paper-title">The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models</span>
                     <span class="paper-authors"><strong>Yang Xiao</strong>, Gen Li, Jie Ji, Ruimeng Ye, Xiaolong Ma, Bo Hui</span>
                     <span class="paper-venue">NeurIPS 2025 Workshop <span style="color: #e74c3c;">(Oral Invitation)</span></span>
+                    <p class="paper-intro">
+                      <strong>[Trustworthy AI]</strong> Exploring the relationship between unlearned data and pruned neurons in artificial neural network.
+                    </p>
                     <div class="paper-links">
                         <a href="https://arxiv.org/abs/2507.18725" target="_blank">[PDF]</a>
                         <a href="https://github.com/NKUShaw/SparseModels" target="_blank">[Code]</a>
@@ -367,6 +405,9 @@
                     <span class="paper-title">Efficient Knowledge Graph Unlearning with Zeroth-order Information</span>
                     <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bohan Liu, Xiaolong Ma, Bo Hui</span>
                     <span class="paper-venue">ACM International Conference on Information and Knowledge Management (CIKM), 2025</span>
+                    <p class="paper-intro">
+                      <strong>[Efficient AI]</strong> Efficient influence function in graph for machine unlearning via Woodfisher and zeroth optimization.
+                    </p>
                     <div class="paper-links">
                         <a href="https://dl.acm.org/doi/10.1145/3746252.3761379" target="_blank">[PDF]</a>
                         <a href="https://github.com/NKUShaw/ZOWFKGIF" target="_blank">[Code]</a>
@@ -382,6 +423,9 @@
                     <span class="paper-title">Knowledge Graph Unlearning with Schema</span>
                     <span class="paper-authors"><strong>Yang Xiao</strong>, Ruimeng Ye, Bo Hui</span>
                     <span class="paper-venue">International Conference on Computational Linguistics (COLING), 2025</span>
+                    <p class="paper-intro">
+                      <strong>[Trustworthy AI]</strong> Machine unlearning in graph via Schema.
+                    </p>
                     <div class="paper-links">
                         <a href="https://aclanthology.org/2025.coling-main.238/" target="_blank">[PDF]</a>
                         <a href="https://github.com/NKUShaw/KGUnlearningBySchema" target="_blank">[Code]</a>
@@ -397,6 +441,9 @@
                     <span class="paper-title">Advancing Certified Robustness of Explanation via Gradient Quantization</span>
                     <span class="paper-authors"><strong>Yang Xiao</strong>, Zijie Zhang, Yuchen Fang, Da Yan, Yang Zhou, Wei-Shinn Ku, Bo Hui</span>
                     <span class="paper-venue">ACM International Conference on Information and Knowledge Management (CIKM), 2024</span>
+                    <p class="paper-intro">
+                      <strong>[Trustworthy AI]</strong> Exploring the Robustness Radius of Attribution of Neural Network. 
+                    </p>
                     <div class="paper-links">
                         <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3679650" target="_blank">[PDF]</a>
                         <a href="https://github.com/NKUShaw/CertifiedExplanation" target="_blank">[Code]</a>
@@ -533,7 +580,16 @@
             </div>
     
             <h3 style="margin-top: 40px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Pre-print & Submitted</h3>
-    
+
+            <div class="paper">
+                <span class="paper-title">LiteFrame: Selective Frame Encoding for Efficient Micro-Video Sequential Recommendation</span>
+                <span class="paper-authors"><strong>Yang Xiao</strong>, Huiyuan Chen, Chao Jiang, Zinan Ling, Ruimeng Ye, Bo Hui</span>
+                <span class="paper-venue">Finished</span>
+                <div class="paper-links">
+                        <a href="https://github.com/NKUShaw/" target="_blank">[TBD]</a>
+                    </div>
+            </div>
+            
             <div class="paper">
                 <span class="paper-title">LightCache: Memory-Efficient, Training-Free Acceleration for Video Generation</span>
                 <span class="paper-authors"><strong>Yang Xiao</strong>, Gen Li, Kaiyuan Deng, Yushu Wu, Zheng Zhan, Yanzhi Wang, Xiaolong Ma, Bo Hui</span>
@@ -620,7 +676,7 @@
                         <li><strong>[2025.05]</strong> ACL reject &rarr; CIKM 2025</li>
                         <li><strong>[2025.05]</strong> ICML reject &rarr; NIPS 2025</li>
                         <li><strong>[2024.12]</strong> AAAI reject &rarr; ACL 2025</li>
-                        <li><strong>[2024.07]</strong> ACL desk reject (reason unknown) &rarr; COLING 2025 & LoG 2024</li>
+                        <li><strong>[2024.07]</strong> ACL desk reject (Forgot to change the path in the anonymous code, leak my name) &rarr; COLING 2025 & LoG 2024</li>
                         <li><strong>[2024.05]</strong> UAI withdrawn &rarr; CIKM 2024</li>
                     </ul>
                 </div>
@@ -628,6 +684,7 @@
                 <div style="flex: 1; min-width: 300px;">
                     <h3>Job Reject</h3>
                     <ul class="reject-list">
+                        <li><strong>[2025.12.01]</strong> Point72 reject</li>
                         <li><strong>[2025.11.11]</strong> Mutual of Omaha reject</li>
                         <li><strong>[2025.07.02]</strong> Microsoft reject</li>
                         <li><strong>[2025.06.27]</strong> Microsoft reject</li>
