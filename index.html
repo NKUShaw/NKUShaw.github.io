@@ -178,6 +178,16 @@
             background-color: var(--accent-color);
             color: white;
         }
+
+        .paper-links .unavailable {
+            display: inline-block;
+            font-size: 0.85em;
+            padding: 2px 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            color: #999;
+            margin-right: 5px;
+        }
         
         .paper-img-container {
             flex: 0 0 180px;     /* 图片固定宽度 180px，你可以调整 */
@@ -238,16 +248,53 @@
             color: #666;
         }
         /* 手机端适配：变成单列 */
-        @media (max-width: 600px) {
-            .paper-item {
-                flex-direction: column; /* 手机上头像在上方 */
-                align-items: center;
-                text-align: center;
+        @media (max-width: 700px) {
+            .layout {
+                display: block;
             }
+
+            .sidebar {
+                position: static;
+                width: auto;
+                padding: 15px 20px 0;
+            }
+
+            .sidebar ul {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px 16px;
+                margin: 0;
+            }
+
+            .sidebar li {
+                margin-bottom: 0;
+            }
+
+            .container {
+                padding: 25px 20px;
+            }
+
+            header {
+                flex-direction: column;
+                gap: 20px;
+                margin-bottom: 40px;
+            }
+
+            .paper {
+                flex-direction: column;
+                gap: 12px;
+            }
+
             .paper-img-container {
                 width: 100%;
-                max-width: 100%; /* 图片撑满屏幕 */
+                max-width: 260px;
                 margin-bottom: 10px;
+            }
+
+            .paper-title,
+            .paper-authors,
+            .paper-venue {
+                width: auto;
             }
         }
         .edu-badge {
@@ -276,8 +323,9 @@
             <li><a href="dogs/">My Dogs</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#news">News</a></li>
-            <li><a href="#selected publications">Selected Publications</a></li>
-            <li><a href="#full publications">Full Publications</a></li>
+            <li><a href="#submitted-projects">Submitted Projects</a></li>
+            <li><a href="#selected-publications">Selected Publications</a></li>
+            <li><a href="#full-publications">Full Publications</a></li>
             <li><a href="#statistics">Statistics</a></li>
             <li><a href="#rejects">Rejects</a></li>
         </ul>
@@ -388,8 +436,8 @@
             }
         </script>
     
-        <section id="selected publications">
-            <h2>📝 Selected Publications</h2>
+        <section id="submitted-projects">
+            <h2>📝 Submitted Projects</h2>
 
             <div class="paper">
                 <div class="paper-img-container">
@@ -403,8 +451,8 @@
                       <strong>[Efficient AI]</strong> RL-enhanced world model inference.
                     </p>
                     <div class="paper-links">
-                        <a href="https://github.com/NKUShaw/" target="_blank">[PDF]</a>
-                        <a href="https://github.com/NKUShaw/" target="_blank">[Code]</a>
+                        <span class="unavailable">[PDF coming soon]</span>
+                        <span class="unavailable">[Code coming soon]</span>
                     </div>
                     
                 </div>
@@ -422,8 +470,8 @@
                       <strong>[Trustworthy AI]</strong> Combination unlearning by a non-parametric statistics.
                     </p>
                     <div class="paper-links">
-                        <a href="https://github.com/NKUShaw/" target="_blank">[PDF]</a>
-                        <a href="https://github.com/NKUShaw/" target="_blank">[Code]</a>
+                        <span class="unavailable">[PDF coming soon]</span>
+                        <span class="unavailable">[Code coming soon]</span>
                     </div>
                     
                 </div>
@@ -442,11 +490,16 @@
                     </p>
                     <div class="paper-links">
                         <a href="https://arxiv.org/abs/2605.08810" target="_blank">[PDF]</a>
-                        <a href="https://github.com/NKUShaw/" target="_blank">[Code]</a>
+                        <span class="unavailable">[Code coming soon]</span>
                     </div>
                     
                 </div>
             </div>
+
+        </section>
+
+        <section id="selected-publications">
+            <h2>📝 Selected Publications</h2>
             
             <div class="paper">
                 <div class="paper-img-container">
@@ -559,7 +612,7 @@
     
         </section>
     
-        <section id="full publications">
+        <section id="full-publications">
             <h2>📝 Publications</h2>
     
             <h3 style="margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 10px;">Regular Conference Papers</h3>
@@ -614,7 +667,7 @@
                 <span class="paper-authors">Xiaodi Li, <strong>Yang Xiao</strong>, Munhwan Lee, Maria Vassilaki, Nansu Zong</span>
                 <span class="paper-venue">CTAD 2025</span>
                 <div class="paper-links">
-                    <a href="" target="_blank">[TBD]</a>
+                    <span class="unavailable">[TBD]</span>
                 </div>
             </div>
     
@@ -728,7 +781,7 @@
                 <span class="paper-authors"><strong>Yang Xiao</strong>, Huiyuan Chen, Kaiyuan Deng, Chao Jiang, Zinan Ling, Ruimeng Ye, Xiaolong Ma, Bo Hui</span>
                 <span class="paper-venue">Finished</span>
                 <div class="paper-links">
-                        <a href="https://github.com/NKUShaw/" target="_blank">[TBD]</a>
+                        <span class="unavailable">[TBD]</span>
                     </div>
             </div>
             
@@ -793,6 +846,7 @@
     
         <section id="rejects">
             <h2>🌧️ Rejects (To be better)</h2>
+            <p style="font-size: 0.9em; color: #666; margin-top: -8px;">There were too many rejections in 2026, so I got too lazy to keep updating this list.</p>
             
             <div style="display: flex; gap: 40px; flex-wrap: wrap;">
                 
